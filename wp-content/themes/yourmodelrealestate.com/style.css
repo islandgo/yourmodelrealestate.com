@@ -176,6 +176,18 @@ img {
      ) 1;
 }
 
+/* Slick actions */
+
+.slick-next,
+ .slick-prev {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #000000 solid 1px;
+    cursor: pointer;
+}
+
 /*******************************************************
  *
  * 4. IP Styles
@@ -681,15 +693,7 @@ img {
 .comp-featured-videos-container a {
     max-width: 278px;
 }
-.comp-featured-videos-container .slick-next,
-.comp-featured-videos-container .slick-prev {
-    min-height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: #000000 solid 1px;
-    cursor: pointer;
-}
+
 .comp-featured-videos-container .slick-action {
     position: absolute;
     right: 0;

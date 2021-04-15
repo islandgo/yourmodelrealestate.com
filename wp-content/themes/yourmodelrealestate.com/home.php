@@ -109,7 +109,15 @@
 			</div>
 			<p>It is with pleasure that Aleta welcome you to Atlanta, and to her website. with years of experience in
 				the market.</p>
-				<a  class="site-btn-primary" href="[blogurl]" aria-label="btn">View all properties +</a>
+			<div class="slick-action">
+				<button class="slick-prev">
+					<span class="ai-font-arrow-b-p  slick-arrow"></span>
+				</button>
+				<button class="slick-next">
+					<span class="ai-font-arrow-b-n  slick-arrow"></span>
+				</button>
+			</div>
+			<a  class="site-btn-primary" href="[blogurl]" aria-label="btn">View all properties +</a>
 		</div>
 
 		<div class="featured-property-slick">
@@ -413,9 +421,14 @@
 		</div>
 
 		<div class="slick-action">
-			<span class="ai-font-arrow-b-p slick-prev slick-arrow"></span>
-			<span class="ai-font-arrow-b-n slick-next slick-arrow"></span>
+			<button class="slick-prev">
+				<span class="ai-font-arrow-b-p  slick-arrow"></span>
+			</button>
+			<button class="slick-next">
+				<span class="ai-font-arrow-b-n  slick-arrow"></span>
+			</button>
 		</div>
+		
 	</div>
 </section>
 <!-- Featured Videos End -->

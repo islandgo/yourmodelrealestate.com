@@ -8,12 +8,18 @@
 		},
 		initFeaturedProperties: function() {
 			/* Put featured properties code here */
-
-			$(".featured-property-slick").slick({
+			var featuredPropertiesSlick = ".featured-property-slick";
+			$(featuredPropertiesSlick).slick({
 				slidesToShow: 3,
 				dots: false,
-				// arrows: false,
+				arrows: false,
 				focusOnSelect: true
+			});
+			$('.hp-featured-properties .slick-next').click(function() {
+				$(featuredPropertiesSlick).slick('slickNext');
+			});
+			$('.hp-featured-properties .slick-prev').click(function() {
+				$(featuredPropertiesSlick).slick('slickPrev');
 			});
 		},
 		initFeaturedCommunities: function() {
@@ -43,10 +49,10 @@
 				arrows: false,
 				focusOnSelect: true
 			});
-			$('.slick-action .slick-next').click(function() {
+			$('.hp-featured-videos .slick-next').click(function() {
 				$(mainVideoSelector).slick('slickNext');
 			});
-			$('.slick-action .slick-prev').click(function() {
+			$('.hp-featured-videos .slick-prev').click(function() {
 				$(mainVideoSelector).slick('slickPrev');
 			});
 		}
