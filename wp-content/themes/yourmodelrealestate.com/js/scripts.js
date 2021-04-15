@@ -18,8 +18,30 @@
 		initQuickSearch: function() {
 			/* Put quick search code here */
 		},
-		initCustomFunction: function() {
-			/* See the pattern? Create more functions like this if needed. */
+		initCustomVideos: function() {
+			var mainVideoSelector = '.feature-slick-video';
+			$('.main-slick-video').slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: false,
+				fade: true,
+				asNavFor: mainVideoSelector
+			  });
+
+			$(mainVideoSelector).slick({
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				asNavFor: '.main-slick-video',
+				dots: false,
+				arrows: false,
+				focusOnSelect: true
+			});
+			$('.slick-action .slick-next').click(function() {
+				$(mainVideoSelector).slick('slickNext');
+			});
+			$('.slick-action .slick-prev').click(function() {
+				$(mainVideoSelector).slick('slickPrev');
+			});
 		}
 		
 	}
@@ -41,6 +63,9 @@
 		
 		/* Initialize quick search */
 		app.initQuickSearch();
+
+		/* Initialize quick search */
+		app.initCustomVideos();
 		
 	});
 	
