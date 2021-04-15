@@ -422,6 +422,10 @@ img {
 
 /* Featured-properties start */
 
+.hp-featured-properties {
+    padding-top: 118px;
+}
+
 .comp-featured-properties-container {
     display: flex;
     width: 86%;
@@ -442,6 +446,14 @@ img {
 }
 .comp-featured-properties-container a {
     max-width: 266px;
+}
+
+.properties-item {
+    padding: 36px 20px;
+}
+
+.properties-item p {
+    padding: 50px 0 110px 0;
 }
 
 .properties-item .img-properties {
