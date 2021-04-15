@@ -252,18 +252,24 @@
 					<h2>are saying</h2>
 				</div>
 			</div>
-			<img alt="atlanta" class="img-atlanta" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/testimonials-quote.jpg">
+			<div class="quote-wrapper">
+				<img alt="atlanta" class="img-atlanta" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/testimonials-quote.jpg">
+			</div>
 			<p>We can't thank Aleta enough for helping us find our dream home in Atlanta. its exactly what we dreamed it
 				would be - and we didn't go over our budget! Aleta's local market knowledge, expertise, and amazing
 				dedication made the whole buying process truly enjoyable. Thank you so much, Atela!</p>
-			<p>Bill M.</p>
-			<p>publisher, The O Magazine</p>
+			<h5>Bill M.</h5>
+			<span>publisher, The O Magazine</span>
 				<a class="site-btn-primary" href="[blogurl]" aria-label="btn">View all testimonials +</a>
 		</div>
 		<div class="testimonials-item contact-form">
-			<span class="section-number">06</span>
-			<h4>get in touch</h4>
-			<h1>contact us</h1>
+			<div class="site-title-primary">
+				<span class="section-number">06</span>
+				<div class="section-name">
+					<h4>get in touch</h4>
+					<h2>contact us</h2>
+				</div>
+			</div>
 			<p>Keep up to date on the latest market trends and opportunities in our site.</p>
 			<div class="git-form">
 				<div class="form-md pad-top">
