@@ -158,11 +158,13 @@ img {
 
 /* Site btn primary */
 .site-btn-primary {
+    width: 100%;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    letter-spacing: .10em;
     font-size: 15px;
     border: 2px solid;
     border-image: linear-gradient(to right, 
@@ -346,14 +348,13 @@ img {
 
 
 /* About start*/
-
-.about-title h2 {
-    line-height: 60px;
+.comp-about-container a {
+    max-width: 210px;
 }
 
 .comp-about-container {
     position: relative;
-
+    
     /* Grid */
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -370,6 +371,10 @@ img {
     padding: 0 0 0 56px;
 }
 
+.about-title h2 {
+    line-height: 60px;
+}
+
 .about-paragraph .item-middle{
     padding: 34px 0 0 0 ;
 }
@@ -381,6 +386,10 @@ img {
 
 /* Featured-properties start */
 
+.comp-featured-properties-container a {
+    max-width: 266px;
+}
+
 .properties-item .img-properties {
     max-width: 330px;
 }
@@ -389,6 +398,14 @@ img {
 
 
 /* Featured-areas start */
+
+.hp-featured-areas {
+    padding: 122px 0 56px 0;
+}
+
+.comp-featured-areas-container .featured-areas-item a {
+  max-width: 278px;  
+}
 
 .comp-featured-areas-container {
     display: grid;
@@ -461,18 +478,18 @@ img {
     align-items: center;
     justify-content: center;
     font-size: 15px;
-    border: 2px solid;
-    border-image: linear-gradient(to right, 
-     rgba(124,94,56,1) 0%,
-     rgba(208,183,147,1) 49%,
-     rgba(124,94,56,1) 100%
-     ) 1;
+    border: 2px solid #ffffff;
 }
 .comp-featured-areas-container .featured-areas-item {
     position: relative;
 }
 .comp-featured-areas-container .featured-areas-item:hover .site-btn-secondary{
     display: block;
+    background: transparent;
+    text-transform: uppercase;
+    max-height: 50px;
+    max-width: 210px;
+    margin: 16px 0 0 0;
 
 }
 .comp-featured-areas-container .site-btn-secondary {
@@ -499,6 +516,10 @@ img {
 
 /* Cta start */
 
+.hp-cta {
+    padding: 56px 0 74px 0;
+}
+
 .comp-cta-container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -524,17 +545,45 @@ img {
     grid-area: homeValuation;
 }
 
+.cta-item img {
+    width: 100%;
+}
+
+.cta-item h3 {
+    display: flex;
+    font-size: 44px;
+    font-family: 'Italiana', serif;
+    text-transform: uppercase;
+    padding: 42px 0 0 0;
+    align-items: center;
+    justify-content: center;
+}
 /* Cta end */
 
 
 /* Testimonials start */
+
+.comp-testimonials-container a {
+    max-width: 290px;
+}
 
 /* Testimonials End */
 
 
 /* Featured Videos start */
 
+.comp-featured-videos-container a {
+    max-width: 278px;
+}
+
 /* Featured Videos end */
 
-/* MEDIA QUERIES ARE AUTOMATICALLY REMOVED FROM THIS FILE, they must be placed in style-media-queries.css */
 
+/* Footer start */
+
+.hp-footer {
+    /* background-color: #372b4c; */
+}
+/* Footer end */
+
+/* MEDIA QUERIES ARE AUTOMATICALLY REMOVED FROM THIS FILE, they must be placed in style-media-queries.css */

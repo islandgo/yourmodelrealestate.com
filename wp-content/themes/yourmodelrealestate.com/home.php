@@ -132,7 +132,7 @@
 
 <!-- Featured Areas -->
 <section class="hp-featured-areas">
-	<div class="comp-featured-areas-container">
+	<div class="comp-featured-areas-container ">
 		<div class="featured-areas-item areas">
 			<div class="site-title-primary">
 				<span class="section-number">04</span>
@@ -244,11 +244,13 @@
 <!-- Testimonials -->
 <section class="hp-testimonials">
 	<div class="comp-testimonials-container container">
-		<div class="testimonials-item testimonial site-title-primary">
-			<span class="section-number">05</span>
-			<div class="section-name">
-				<h4>what our clients</h4>
-				<h2>are saying</h2>
+		<div class="testimonials-item testimonial">
+			<div class="site-title-primary">
+				<span class="section-number">05</span>
+				<div class="section-name">
+					<h4>what our clients</h4>
+					<h2>are saying</h2>
+				</div>
 			</div>
 			<img alt="atlanta" class="img-atlanta" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/testimonials-quote.jpg">
 			<p>We can't thank Aleta enough for helping us find our dream home in Atlanta. its exactly what we dreamed it
@@ -296,11 +298,13 @@
 <!-- Featured Videos -->
 <section class="hp-featured-videos">
 	<div class="comp-featured-videos-container">
-		<div class="featured-item site-title-primary">
-			<span class="section-number">07</span>
-			<div class="section-name">
-				<h4>featured </h4>
-				<h2>videos</h2>
+		<div class="featured-item">
+			<div class="site-title-primary">
+				<span class="section-number">07</span>
+				<div class="section-name">
+					<h4>featured </h4>
+					<h2>videos</h2>
+				</div>
 			</div>
 				<a class="site-btn-primary" href="[blogurl]" aria-label="btn">View all videos +</a>
 		</div>
@@ -343,7 +347,7 @@
 		
 	
 		<div class="footer-item">
-			<img alt="logo" class="img-responsive pad-middle" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/logo1.png">
+			<img alt="logo" class="img-responsive pad-middle" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/logo2.png">
 			<p>your model living</p>
 			<p>palmerhouse properties</p>
 		</div>
