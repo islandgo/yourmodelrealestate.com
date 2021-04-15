@@ -5,13 +5,23 @@
 		<?php endif ?>
 	</main>
 	
-		<footer class="footer">
+	<footer class="footer">
 			<div class="container">
-				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_class' => 'footernav', 'theme_location' => 'primary-menu','depth'=>1 ) ); ?>
-				<div class="copyright">
-					&copy; <?php echo date('Y') ?> Agent Image. <!-- aios shortcode here -->
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer Upper") ) : ?><?php endif ?>
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer Middle") ) : ?><?php endif ?>
+
+				<div class="lower-footer">
+					<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_class' => 'footernav', 'theme_location' => 'primary-menu','depth'=>1 ) ); ?>
+					<p class="copyright">Copyright © <?php echo do_shortcode('[currentYear]')?> <span class="sitename"> Patrice Sandstrom. </span>All rights reserved. <a class="sitemap" href="<?php echo do_shortcode('[blogurl]')?>/sitemap">Sitemap |</a> <?php echo do_shortcode('[agentimage_credits credits="Real Estate Website Design by <a target="_blank" href="https://www.agentimage.com" style="text-decoration:underline;font-weight:bold">Agent Image</a>"]'); ?>
+					</p>
+					<div class="mls">
+						<em class="ai-font-eho" title="MLS"></em>
+						<em class="ai-font-mls" title="MLS"></em>
+						<em class="ai-font-realtor" title="MLS"></em>
+					</div>
 				</div>
-			</div>		
+			</div>	
+			<hr>	
 		</footer>
 		
 		<?php do_action('aios_neighborhoods_footer')?>

@@ -6,13 +6,204 @@
 
  
 /* iPad(landscape) | iPad(landscape) | Galaxy Tab 4 (landscape) | Galaxy Tab 3 (landscape) */ 
-@media only screen and (max-width: 1199px) {
 
+@media only screen and (max-width: 1450px) {
+	/* 1366px */
+
+	/* Header start */
+
+	/* Header end */
+
+
+	/* Slideshow start */
+
+	/* Slideshow end */
+
+
+	/* Quick search start */
+
+	/* Quick search end */
+
+
+	/* About start*/
+
+	/* About end*/
+
+
+	/* Featured-properties start */
+
+	/* Featured-properties end */
+
+
+	/* Featured-areas start */
+
+	/* Featured-areas end */
+
+
+	/* Cta start */
+
+	/* Cta end */
+
+
+	/* Testimonials start */
+
+	/* Testimonials End */
+
+
+	/* Featured Videos start */
+
+	/* Featured Videos end */
+
+}
+
+
+@media only screen and (max-width: 1365px) {
+	/* 1200 */	
+
+	/* Header start */
+
+	/* Header end */
+
+
+	/* Slideshow start */
+
+	/* Slideshow end */
+
+
+	/* Quick search start */
+
+	/* Quick search end */
+
+
+	/* About start*/
+
+	/* About end*/
+
+
+	/* Featured-properties start */
+
+	/* Featured-properties end */
+
+
+	/* Featured-areas start */
+
+	/* Featured-areas end */
+
+
+	/* Cta start */
+
+	/* Cta end */
+
+
+	/* Testimonials start */
+
+	/* Testimonials End */
+
+
+	/* Featured Videos start */
+
+	/* Featured Videos end */
+
+}
+
+
+@media only screen and (max-width: 1199px) {
+	/* 992 */
+
+	/* Header start */
+
+	/* Header end */
+
+
+	/* Slideshow start */
+
+	/* Slideshow end */
+
+
+	/* Quick search start */
+
+	/* Quick search end */
+
+
+	/* About start*/
+
+	/* About end*/
+
+
+	/* Featured-properties start */
+
+	/* Featured-properties end */
+
+
+	/* Featured-areas start */
+
+	/* Featured-areas end */
+
+
+	/* Cta start */
+
+	/* Cta end */
+
+
+	/* Testimonials start */
+
+	/* Testimonials End */
+
+
+	/* Featured Videos start */
+
+	/* Featured Videos end */
 } 
 
 /* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
 @media only screen and (max-width: 991px) {
+	/* 768 */
 	
+	/* Header start */
+
+	/* Header end */
+
+
+	/* Slideshow start */
+
+	/* Slideshow end */
+
+
+	/* Quick search start */
+
+	/* Quick search end */
+
+
+	/* About start*/
+
+	/* About end*/
+
+
+	/* Featured-properties start */
+
+	/* Featured-properties end */
+
+
+	/* Featured-areas start */
+
+	/* Featured-areas end */
+
+
+	/* Cta start */
+
+	/* Cta end */
+
+
+	/* Testimonials start */
+
+	/* Testimonials End */
+
+
+	/* Featured Videos start */
+
+	/* Featured Videos end */
+
+
 	/* The following are used on inner pages. Please edit carefully. */
 
 	.inner {
@@ -33,6 +224,52 @@
 
 /* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */ 
 @media only screen and (max-width: 767px) {
+	/* 481 */
+
+	/* Header start */
+
+	/* Header end */
+
+
+	/* Slideshow start */
+
+	/* Slideshow end */
+
+
+	/* Quick search start */
+
+	/* Quick search end */
+
+
+	/* About start*/
+
+	/* About end*/
+
+
+	/* Featured-properties start */
+
+	/* Featured-properties end */
+
+
+	/* Featured-areas start */
+
+	/* Featured-areas end */
+
+
+	/* Cta start */
+
+	/* Cta end */
+
+
+	/* Testimonials start */
+
+	/* Testimonials End */
+
+
+	/* Featured Videos start */
+
+	/* Featured Videos end */
+
     .ip-banner .container{
         width: 100%;
     }
@@ -40,6 +277,51 @@
 
 /* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */ 
 @media only screen and (max-width: 480px) {
+	/* 321 */
+
+	/* Header start */
+
+	/* Header end */
+
+
+	/* Slideshow start */
+
+	/* Slideshow end */
+
+
+	/* Quick search start */
+
+	/* Quick search end */
+
+
+	/* About start*/
+
+	/* About end*/
+
+
+	/* Featured-properties start */
+
+	/* Featured-properties end */
+
+
+	/* Featured-areas start */
+
+	/* Featured-areas end */
+
+
+	/* Cta start */
+
+	/* Cta end */
+
+
+	/* Testimonials start */
+
+	/* Testimonials End */
+
+
+	/* Featured Videos start */
+
+	/* Featured Videos end */
 
 }
  

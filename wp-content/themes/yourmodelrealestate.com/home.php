@@ -1,233 +1,384 @@
 <?php get_header(); ?>
 
-	<!-- your home html -->
+<!-- your home html -->
 
-	<!-- Banner -->
-	<section class="hp-slideshow">
-	
-	</section>
-	<!-- End Banner -->
+<!-- Banner -->
+<section class="hp-slideshow">
+	<h2 class="hidden">hidden h2</h2>
+	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp Slideshow") ) : ?><?php endif ?>
+</section>
+<!-- Banner End -->
 
-	<!-- Quick Search -->
-	<section class="hp-quick-search">
-		<div class="comp-quick-search container">
-			<div class="quick-search-item search">
+<!-- Quick Search -->
+<section class="hp-quick-search">
+	<div class="comp-quick-search-container container">
+		<div class="quick-search-item site-title-primary">
+			<span class="section-number">01</span>
+			<div class="section-name">
 				<h4>quick</h4>
-				<h1>search</h1>
-			</div>
-			<div class="quick-search-item">city or zip code</div>
-			<div class="quick-search-item">property type</div>
-			<div class="quick-search-item">bedrooms</div>
-			<div class="quick-search-item">bathrooms</div>
-			<div class="quick-search-item">min $</div>
-			<div class="quick-search-item">max $</div>
-			<div class="quick-search-item">search</div>
-			<div class="quick-search-item">advanced</div>
-		</div>
-	</section>
-	<!-- End Quick Search -->
-
-	<!-- About -->
-	<section class="hp-about">
-		<div class="comp-about container">
-			<div class="about-img">
-				<img alt="atela" class="img-atela" src="[stylesheet_directory]/images/fp-img-1.jpg">
-			</div>
-			<div class="about-item">
-				<h4>about</h4>
-				<h1>atela c. saunders</h1>
-				<p>Aleta C. Saunders bring both profession and sincerity to residential real estate. Passionate about her work. she makes sure her clients receive her full efforts throughout the entire precess. With un-paralleled determination, she works hard to secure a profitable and positive experience for those who trust her with thei real estate needs. You can be sure that when you choose to work with Aleta.</p>
-				<p>Being an equestrian herself, Aleta knows the needs of a horse owner, allowing her to locate the perfect property for each equestrian.</p>
-			</div>
-			<div class="globa-site-btn">
-				<a href="[blogurl]" aria-label="btn">Read more</a>
+				<h2>search</h2>
 			</div>
 		</div>
-	</section>
-	<!-- End About -->
+		<form class="quick-search-item comp-search-container" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
+			<div class="form-item zip-item">
+				<select aria-label="zip code" class="site-select-primary">
+					<option value="volvo">City or Zip Code</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+			</div>
+			<div class="form-item property-item">
+				<select aria-label="property type" class="site-select-primary">
+					<option value="volvo">Property Type</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+			</div>
+			<div class="form-item bed-item">
+				<select aria-label="beds" class="site-select-primary">
+					<option value="volvo">Bedrooms</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+			</div>
+			<div class="form-item bath-item">
+				<select aria-label="baths" class="site-select-primary">
+					<option value="volvo">Bathrooms</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+			</div>
+			<div class="form-item min-item">
+				<input type="text" class="site-input-primary" aria-label="min $" placeholder="Min $">
+			</div>
+			<div class="form-item max-item">
+				<input type="text" class="site-input-primary" aria-label="max $" placeholder="Max $">
+			</div>
+			<div class="form-item search-item">
+				<a href="[blogurl]" class="search-btn-primary" aria-label="qs">search</a>
+				
+			</div>
+			<div class="form-item advance-item">
+				<input class="serch-btn-secondary" type="submit" value="advance" />
+			</div>
+		</form>
+	</div>
+</section>
+<!-- Quick Search End -->
 
-	<!-- Featured Properties -->
-	<section class="hp-featured-properties">
-		<div class="comp-featured-properties">
-			<div class="properties-item">
-				<h4>Featured</h4>
-				<h1>Properties</h1>
-				<p>It is with pleasure that Aleta welcome you to Atlanta, and to her website. with years of experience in the market.</p>
-				<div class="globa-site-btn">
-					<a href="[blogurl]" aria-label="btn">View all properties +</a>
+<!-- About -->
+<section class="hp-about">
+	<div class="comp-about-container container">
+			<img alt="atela" class="img-atela about-img" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/about-img.jpg">
+		<div class="about-item">
+			<div class="site-title-primary about-title">
+				<span class="section-number">02</span>
+				<div class="section-name">
+					<h4>about</h4>
+					<h2>aleta c. saunders</h2>
 				</div>
 			</div>
-			<div class="properties-item">
-				<h3>$3,520,000</h3>
-				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
-			</div>
-			<div class="properties-item">
-				<h3>$5,295,000</h3>
-				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
-			</div>
-			<div class="properties-item">
-				<h3>$7,920,000</h3>
-				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
-			</div>
+			<div class="about-paragraph">				
+				<p class="item-middle">Aleta C. Saunders bring both profession and sincerity to residential real estate. Passionate about her
+					work. she makes sure her clients receive her full efforts throughout the entire precess. With
+					un-paralleled determination, she works hard to secure a profitable and positive experience for those who
+					trust her with thei real estate needs. You can be sure that when you choose to work with Aleta.</p>
+				<p class="item-bottom">Being an equestrian herself, Aleta knows the needs of a horse owner, allowing her to locate the perfect
+					property for each equestrian.</p>
+				</div>
+				<a class="site-btn-primary" href="[blogurl]" aria-label="btn">Read more +</a>
 		</div>
-	</section>
-	<!-- End Featured Properties -->
+	</div>
+</section>
+<!-- About End -->
 
-	<!-- Featured Areas -->
-	<section class="hp-featured-areas">
-		<div class="comp-featured-areas">
-			<div class="featured-areas-item areas">
-				<h4>Featured</h4>
-				<h1>Areas</h1>
-				<p>Click on each area for listings, resouces, information, and more and get to know all the information you need.</p>
-				<div class="globa-site-btn">
-					<a href="[blogurl]" aria-label="btn">View all Communities +</a>
+<!-- Featured Properties -->
+<section class="hp-featured-properties">
+	<div class="comp-featured-properties-container">
+		<div class="properties-item">
+			<div class="site-title-primary">
+				<span class="section-number">03</span>
+				<div class="section-name">
+					<h4>Featured</h4>
+					<h2>Properties</h2>
 				</div>
 			</div>
-			<div class="featured-areas-item atlanta">
-				<p>atlanta</p>
-				<img alt="atlanta" class="img-featured-areas" src="[stylesheet_directory]/images/fp-img-1.jpg">
-			</div>
-			<div class="featured-areas-item fulton">
-				<p>fulton</p>
-				<img alt="fulton" class="img-featured-areas" src="[stylesheet_directory]/images/fp-img-1.jpg">
-			</div>
-			<div class="featured-areas-item cobb">
-				<p>cobb</p>
-				<img alt="cobb" class="img-featured-areas" src="[stylesheet_directory]/images/fp-img-1.jpg">
-			</div>
-			<div class="featured-areas-item dekalb">
-				<p>dekalb</p>
-				<img alt="dekalb" class="img-featured-areas" src="[stylesheet_directory]/images/fp-img-1.jpg">
-			</div>
-			<div class="featured-areas-item gwinnett">
-				<p>gwinnett</p>
-				<img alt="gwinnett" class="img-featured-areas" src="[stylesheet_directory]/images/fp-img-1.jpg">
-			</div>
-			<div class="featured-areas-item forsyth">
-				<p>forsyth</p>
-				<img alt="forsyth" class="img-featured-areas" src="[stylesheet_directory]/images/fp-img-1.jpg">
-			</div>
-			<div class="featured-areas-item fayette">
-				<p>fayette</p>
-				<img alt="featured-areasyette" class="img-featured-areas" src="[stylesheet_directory]/images/fp-img-1.jpg">
-			</div>
-			<div class="featured-areas-item henry">
-				<p>henry</p>
-				<img alt="henry" class="img-featured-areas" src="[stylesheet_directory]/images/fp-img-1.jpg">
-			</div>
-			<div class="featured-areas-item rockdale">
-				<p>rockdale</p>
-				<img alt="rockdale" class="img-featured-areas" src="[stylesheet_directory]/images/fp-img-1.jpg">
-			</div>
-			<div class="featured-areas-item clayton">
-				<p>clayton</p>
-				<img alt="clayton" class="img-featured-areas" src="[stylesheet_directory]/images/fp-img-1.jpg">
-			</div>
+			<p>It is with pleasure that Aleta welcome you to Atlanta, and to her website. with years of experience in
+				the market.</p>
+				<a  class="site-btn-primary" href="[blogurl]" aria-label="btn">View all properties +</a>
 		</div>
-	</section>
-
-	<!-- Bottom Featured Areas -->
-	<section class="hp-featured-areas-bottom">
-		<div class="comp-featured-areas-bottom">
-			<div>
-				<img alt="buyers" class="img-fa-bottom" src="[stylesheet_directory]/images/fp-img-1.jpg">
-				<h3>buyers</h3>
-			</div>
-			<div>
-				<img alt="search" class="img-fa-bottom" src="[stylesheet_directory]/images/fp-img-1.jpg">
-				<h3>search</h3>
-			</div>
-			<div>
-				<img alt="sellers" class="img-fa-bottom" src="[stylesheet_directory]/images/fp-img-1.jpg">
-				<h3>sellers</h3>
-			</div>
-			<div>
-				<img alt="home valuation" class="img-fa-bottom" src="[stylesheet_directory]/images/fp-img-1.jpg">
-				<h3>home valuation</h3>
-			</div>
+		<div class="properties-item">
+			<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img1.jpg">
+			<h3>$3,520,000</h3>
+			<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
 		</div>
-	</section>
-	<!-- End Bottom Featured Areas -->
-	<!-- End Featured Areas -->
+		<div class="properties-item">
+			<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img2.jpg">
+			<h3>$5,295,000</h3>
+			<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+		</div>
+		<div class="properties-item">
+			<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img3.jpg">
+			<h3>$7,920,000</h3>
+			<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+		</div>
+	</div>
+</section>
+<!-- Featured Properties End -->
 
-	<!-- Clients -->
-	<section class="hp-clients">
-		<div class="comp-clients container">
-			<div class="client-item">
+<!-- Featured Areas -->
+<section class="hp-featured-areas">
+	<div class="comp-featured-areas-container">
+		<div class="featured-areas-item areas">
+			<div class="site-title-primary">
+				<span class="section-number">04</span>
+				<div class="section-name">
+					<h4>Featured</h4>
+					<h2>Areas</h2>
+				</div>
+			</div>
+			<p>Click on each area for listings, resouces, information, and more and get to know all the information you need.</p>
+				<a class="site-btn-primary" href="[blogurl]" aria-label="btn">View all Communities +</a>
+		</div>
+		<a href="" class="featured-areas-item atlanta">
+			<div class="content">
+				<h3>atlanta</h3>
+				<button href="#" class="site-btn-secondary">view details +</button>
+			</div>
+			<img alt="atlanta" class="img-atlanta" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fa-img1.jpg">
+		</a>
+		<a href="" class="featured-areas-item fulton">
+			<div class="content">
+				<h3>fulton</h3>
+				<button href="#" class="site-btn-secondary">view details +</button>
+			</div>
+			<img alt="fulton" class="img-fulton" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fa-img2.jpg">
+		</a>
+		<a href="" class="featured-areas-item cobb">
+			<div class="content">
+				<h3>cobb</h3>
+				<button href="#" class="site-btn-secondary">view details +</button>
+			</div>
+			<img alt="cobb" class="img-cobb" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fa-img3.jpg">
+		</a>
+		<a href="" class="featured-areas-item dekalb">
+			<div class="content">
+				<h3>dekalb</h3>
+				<button href="#" class="site-btn-secondary">view details +</button>
+			</div>
+			<img alt="dekalb" class="img-dekalb" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fa-img4.jpg">
+		</a>
+		<a href="" class="featured-areas-item gwinnett">
+			<div class="content">
+				<h3>gwinnett</h3>
+				<button href="#" class="site-btn-secondary">view details +</button>
+			</div>
+			<img alt="gwinnett" class="img-gwinnett" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fa-img5.jpg">
+		</a>
+		<a href="" class="featured-areas-item forsyth">
+			<div class="content">
+				<h3>forsyth</h3>
+				<button href="#" class="site-btn-secondary">view details +</button>
+			</div>
+			<img alt="forsyth" class="img-forsyth" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fa-img6.jpg">
+		</a>
+		<a href="" class="featured-areas-item fayette">
+			<div class="content">
+				<h3>fayette</h3>
+				<button href="#" class="site-btn-secondary">view details +</button>
+			</div>
+			<img alt="fayette" class="img-fayette" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fa-img7.jpg">
+		</a>
+		<a href="" class="featured-areas-item henry">
+			<div class="content">
+				<h3>henry</h3>
+				<button href="#" class="site-btn-secondary">view details +</button>
+			</div>
+			<img alt="henry" class="img-henry" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fa-img8.jpg">
+		</a>
+		<a href="" class="featured-areas-item rockdale">
+			<div class="content">
+				<h3>rockdale</h3>
+				<button href="#" class="site-btn-secondary">view details +</button>
+			</div>
+			<img alt="rockdale" class="img-rockdale" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fa-img9.jpg">
+		</a>
+		<a href="" class="featured-areas-item clayton">
+			<div class="content">
+				<h3>clayton</h3>
+				<button href="#" class="site-btn-secondary">view details +</button>
+			</div>
+			<img alt="clayton" class="img-clayton" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fa-img10.jpg">
+		</a>
+	</div>
+</section>
+<!-- Featured Areas End -->
+
+<!-- CTA -->
+<section class="hp-cta">
+	<div class="comp-cta-container">
+		<div class="cta-item">
+			<img alt="buyers" class="img-buyers" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/cta1.jpg">
+			<h3>buyers</h3>
+		</div>
+		<div class="cta-item">
+			<img alt="search" class="img-search" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/cta2.jpg">
+			<h3>search</h3>
+		</div>
+		<div class="cta-item">
+			<img alt="sellers" class="img-sellers" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/cta3.jpg">
+			<h3>sellers</h3>
+		</div>
+		<div class="cta-item">
+			<img alt="home" class="img-home" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/cta4.jpg">
+			<h3>home valuation</h3>
+		</div>
+	</div>
+</section>
+<!-- CTA End -->
+
+<!-- Testimonials -->
+<section class="hp-testimonials">
+	<div class="comp-testimonials-container container">
+		<div class="testimonials-item testimonial site-title-primary">
+			<span class="section-number">05</span>
+			<div class="section-name">
 				<h4>what our clients</h4>
-				<h1>are saying</h1>
-				<img alt="client" class="img-client" src="[stylesheet_directory]/images/fp-img-1.jpg">
-				<p>We can't thank Aleta enough for helping us find our dream home in Atlanta. its exactly what we dreamed it would be - and we didn't go over our budget! Aleta's local market knowledge, expertise, and amazing dedication made the whole buying process truly enjoyable. Thank you so much, Atela!</p>
-				<p>Bill M.</p>
-				<p>publisher, The O Magazine</p>
-				<div class="globa-site-btn">
-					<a href="[blogurl]" aria-label="btn">View all testimonials +</a>
-				</div>
+				<h2>are saying</h2>
 			</div>
-			<div class="client-item client-info">
-				<h4>get in touch</h4>
-				<h1>contact us</h1>
-				<p>Keep up to date on the latest market trends and opportunities in our site.</p>
-				<div class="git-form">
-					<div class="form-md pad-top">
-						<label for="git-name"></label>
-						<input type="text" id="name" placeholder="Name">
-					</div>
-				
-					<div class="form-md pad-left">
-						<label for="git-email"></label>
-						<input type="text" id="git-email" placeholder="Email">
-					</div>
+			<img alt="atlanta" class="img-atlanta" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/testimonials-quote.jpg">
+			<p>We can't thank Aleta enough for helping us find our dream home in Atlanta. its exactly what we dreamed it
+				would be - and we didn't go over our budget! Aleta's local market knowledge, expertise, and amazing
+				dedication made the whole buying process truly enjoyable. Thank you so much, Atela!</p>
+			<p>Bill M.</p>
+			<p>publisher, The O Magazine</p>
+				<a class="site-btn-primary" href="[blogurl]" aria-label="btn">View all testimonials +</a>
+		</div>
+		<div class="testimonials-item contact-form">
+			<span class="section-number">06</span>
+			<h4>get in touch</h4>
+			<h1>contact us</h1>
+			<p>Keep up to date on the latest market trends and opportunities in our site.</p>
+			<div class="git-form">
+				<div class="form-md pad-top">
+					<label for="git-name"></label>
+					<input type="text" id="name" placeholder="Name">
+				</div>
 
-					<div class="form-md pad-right">
-						<label for="git-phone"></label>
-						<input type="text" id="git-phone" placeholder="Phone">
-					</div>
-				
-					<div class="form-md">
-						<label for="git-message"></label>
-						<textarea  id="git-message" placeholder="Message"></textarea>
-						<div class="global-btn">
-							<input type="submit" value="Send" class="primary-btn">
-						</div>
+				<div class="form-md pad-left">
+					<label for="git-email"></label>
+					<input type="text" id="git-email" placeholder="Email">
+				</div>
+
+				<div class="form-md pad-right">
+					<label for="git-phone"></label>
+					<input type="text" id="git-phone" placeholder="Phone">
+				</div>
+
+				<div class="form-md">
+					<label for="git-message"></label>
+					<textarea id="git-message" placeholder="Message"></textarea>
+					<div class="global-btn">
+						<input type="submit" value="Send" class="primary-btn">
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-	<!-- End Clients -->
+	</div>
 
-	<!-- Featured Videos -->
-	<section class="hp-featured-videos">
-		<div class="comp-featured-videos">
-			<div class="featured-item">
-				<h4>featured</h4>
-				<h1>videos</h1>
-				<div class="globa-site-btn">
-					<a href="[blogurl]" aria-label="btn">View all videos +</a>
+</section>
+<!-- Testimonials End -->
+
+<!-- Featured Videos -->
+<section class="hp-featured-videos">
+	<div class="comp-featured-videos-container">
+		<div class="featured-item site-title-primary">
+			<span class="section-number">07</span>
+			<div class="section-name">
+				<h4>featured </h4>
+				<h2>videos</h2>
+			</div>
+				<a class="site-btn-primary" href="[blogurl]" aria-label="btn">View all videos +</a>
+		</div>
+		<div class="featured-item">
+			<a href="https://player.vimeo.com/video/346779867" class="fv-t-item aios-video-popup " tabindex="0"></a>
+				<div class="fv-t-img">
+					<canvas width="219" height="166" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails1.jpg);"></canvas>
 				</div>
+		</div>
+		<div class="featured-item">
+			<a href="https://player.vimeo.com/video/346779867" class="fv-t-item aios-video-popup " tabindex="0"></a>
+				<div class="fv-t-img">
+					<canvas width="219" height="166" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails2.jpg);"></canvas>
+				</div>
+		</div>
+		<div class="featured-item">
+			<a href="https://player.vimeo.com/video/346779867" class="fv-t-item aios-video-popup " tabindex="0"></a>
+				<div class="fv-t-img">
+					<canvas width="219" height="166" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails3.jpg);"></canvas>
+				</div>
+		</div>
+		<div class="featured-item">
+			<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
+				<div class="fv-t-img">
+					<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+				</div>
+		</div>
+	</div>
+</section>
+<!-- Featured Videos End -->
+
+
+<!-- Hp Footer -->
+<section class="hp-footer">
+	
+	<div class="container">
+		<div class="comp-footer-logo">
+			<img alt="logo" class="img-responsive pad-upper" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/logo1.png">
+		</div>
+		
+	
+		<div class="footer-item">
+			<img alt="logo" class="img-responsive pad-middle" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/logo1.png">
+			<p>your model living</p>
+			<p>palmerhouse properties</p>
+		</div>
+		
+	
+		<div class="footer-info">
+			<div class="footer-phone">
+				<span class="ai-font-phone"></span>
+				<a href="+1.678-849-6920">678-849-6920</a>
 			</div>
-			<div class="featured-item">
-				<a href="https://player.vimeo.com/video/215609798?autoplay=1" aria-label="video" class="aios-video-popup"></a>
-				<canvas width="266" height="352" style="background-image:url('<?php echo get_stylesheet_directory_uri() ?>/images/fc-1.jpg')"></canvas>
+			<div class="footer-email">
+				<span class="ai-font-envelope-f"></span>
+				<a class="asis-mailto-obfuscated-email" data-value="aleta(at)yourmodelrealestate(dotted)com" href="mailto:aleta@yourmodelrealestate.com">aleta@yourmodelrealestate.com</a>
 			</div>
-			<div class="featured-item">
-				<a href="https://player.vimeo.com/video/215609798?autoplay=1" aria-label="video" class="aios-video-popup"></a>
-				<canvas width="266" height="352" style="background-image:url('<?php echo get_stylesheet_directory_uri() ?>/images/fc-1.jpg')"></canvas>
-			</div>
-			<div class="featured-item">
-				<a href="https://player.vimeo.com/video/215609798?autoplay=1" aria-label="video" class="aios-video-popup"></a>
-				<canvas width="266" height="352" style="background-image:url('<?php echo get_stylesheet_directory_uri() ?>/images/fc-1.jpg')"></canvas>
-			</div>
-			<div class="featured-item">
-				<a href="https://player.vimeo.com/video/215609798?autoplay=1" aria-label="video" class="aios-video-popup"></a>
-				<canvas width="266" height="352" style="background-image:url('<?php echo get_stylesheet_directory_uri() ?>/images/fc-1.jpg')"></canvas>
+		
+			<div class="footer-smi">
+				<a href="[ai_client_facebook]" aria-label="facebook" target="_blank">
+					<span class="ai-font-facebook"></span>
+				</a>
+				<a href="[ai_client_instagram]" aria-label="instagram" target="_blank">
+					<span class="ai-font-instagram"></span>
+				</a>
+				<a href="[ai_client_youtube]" aria-label="youtube" target="_blank">
+					<span class="ai-font-linkedin"></span>
+				</a>
+				<a href="[ai_client_yelp]" aria-label="yelp" target="_blank">
+					<span class="ai-font-twitter"></span>
+				</a>
 			</div>
 		</div>
-	</section>
-	<!-- End Featured Videos -->
+	</div>
+</section>
+<!--Hp Footer end -->
 
-	<!-- your home html -->
+
+<!-- your home html -->
 
 <?php get_footer(); ?>
