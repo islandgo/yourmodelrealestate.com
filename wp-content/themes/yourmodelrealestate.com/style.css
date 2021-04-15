@@ -386,6 +386,24 @@ img {
 
 /* Featured-properties start */
 
+.comp-featured-properties-container {
+    display: flex;
+    width: 86%;
+    margin-left: auto;
+}
+
+.comp-featured-properties-container img {
+    width: 100%;
+}
+
+.comp-featured-properties-container .featured-property-slick {
+    width: 63.16%;
+
+}
+.comp-featured-properties-container .property-content {
+    width: 37.84%;
+
+}
 .comp-featured-properties-container a {
     max-width: 266px;
 }

@@ -98,8 +98,8 @@
 
 <!-- Featured Properties -->
 <section class="hp-featured-properties">
-	<div class="comp-featured-properties-container">
-		<div class="properties-item">
+	<div class="comp-featured-properties-container ">
+		<div class="properties-item property-content">
 			<div class="site-title-primary">
 				<span class="section-number">03</span>
 				<div class="section-name">
@@ -111,20 +111,39 @@
 				the market.</p>
 				<a  class="site-btn-primary" href="[blogurl]" aria-label="btn">View all properties +</a>
 		</div>
-		<div class="properties-item">
-			<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img1.jpg">
-			<h3>$3,520,000</h3>
-			<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
-		</div>
-		<div class="properties-item">
-			<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img2.jpg">
-			<h3>$5,295,000</h3>
-			<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
-		</div>
-		<div class="properties-item">
-			<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img3.jpg">
-			<h3>$7,920,000</h3>
-			<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+
+		<div class="featured-property-slick">
+
+			<div class="slick-item">
+				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img1.jpg">
+				<h3>$3,520,000</h3>
+				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+			</div>
+			<div class="slick-item">
+				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img2.jpg">
+				<h3>$5,295,000</h3>
+				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+			</div>
+			<div class="slick-item">
+				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img3.jpg">
+				<h3>$7,920,000</h3>
+				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+			</div>
+			<div class="slick-item">
+				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img1.jpg">
+				<h3>$3,520,000</h3>
+				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+			</div>
+			<div class="slick-item">
+				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img2.jpg">
+				<h3>$5,295,000</h3>
+				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+			</div>
+			<div class="slick-item">
+				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img3.jpg">
+				<h3>$7,920,000</h3>
+				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+			</div>
 		</div>
 	</div>
 </section>

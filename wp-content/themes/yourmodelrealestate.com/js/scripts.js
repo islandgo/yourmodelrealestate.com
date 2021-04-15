@@ -8,6 +8,13 @@
 		},
 		initFeaturedProperties: function() {
 			/* Put featured properties code here */
+
+			$(".featured-property-slick").slick({
+				slidesToShow: 3,
+				dots: false,
+				// arrows: false,
+				focusOnSelect: true
+			});
 		},
 		initFeaturedCommunities: function() {
 			/* Put featured communities code here */
