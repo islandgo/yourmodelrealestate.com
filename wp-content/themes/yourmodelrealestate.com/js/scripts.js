@@ -27,6 +27,14 @@
 		},
 		initTestimonials: function() {
 			/* Put testimonials code here */
+			var testimonialSlick = ".testimonial-slick";
+			$(testimonialSlick).slick({
+				slidesToShow: 1,
+				dots: true,
+				arrows: false,
+				focusOnSelect: true
+			});
+			console.log(234);
 		},
 		initQuickSearch: function() {
 			/* Put quick search code here */

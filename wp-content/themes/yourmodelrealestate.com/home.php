@@ -309,15 +309,95 @@
 					<h2>are saying</h2>
 				</div>
 			</div>
-			<div class="quote-wrapper">
-				<img alt="atlanta" class="img-atlanta" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/testimonials-quote.jpg">
+			<div class="testimonial-slick">
+				<div class="testimonial-slick-item">
+					<div class="quote-wrapper">
+						<img alt="atlanta" class="img-atlanta"
+							src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/testimonials-quote.jpg">
+					</div>
+					<p>We can't thank Aleta enough for helping us find our dream home in Atlanta. its exactly what we
+						dreamed it
+						would be - and we didn't go over our budget! Aleta's local market knowledge, expertise, and amazing
+						dedication made the whole buying process truly enjoyable. Thank you so much, Atela!</p>
+					<h5>Bill M.</h5>
+					<h6>publisher, The O Magazine</h6>
+	
+				</div>
+				<div class="testimonial-slick-item">
+					<div class="quote-wrapper">
+						<img alt="atlanta" class="img-atlanta"
+							src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/testimonials-quote.jpg">
+					</div>
+					<p>We can't thank Aleta enough for helping us find our dream home in Atlanta. its exactly what we
+						dreamed it
+						would be - and we didn't go over our budget! Aleta's local market knowledge, expertise, and amazing
+						dedication made the whole buying process truly enjoyable. Thank you so much, Atela!</p>
+					<h5>Bill M.</h5>
+					<h6>publisher, The O Magazine</h6>
+				</div>
+				<div class="testimonial-slick-item">
+					<div class="quote-wrapper">
+						<img alt="atlanta" class="img-atlanta"
+							src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/testimonials-quote.jpg">
+					</div>
+					<p>We can't thank Aleta enough for helping us find our dream home in Atlanta. its exactly what we
+						dreamed it
+						would be - and we didn't go over our budget! Aleta's local market knowledge, expertise, and amazing
+						dedication made the whole buying process truly enjoyable. Thank you so much, Atela!</p>
+					<h5>Bill M.</h5>
+					<h6>publisher, The O Magazine</h6>
+				</div>
+				<div class="testimonial-slick-item">
+					<div class="quote-wrapper">
+						<img alt="atlanta" class="img-atlanta"
+							src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/testimonials-quote.jpg">
+					</div>
+					<p>We can't thank Aleta enough for helping us find our dream home in Atlanta. its exactly what we
+						dreamed it
+						would be - and we didn't go over our budget! Aleta's local market knowledge, expertise, and amazing
+						dedication made the whole buying process truly enjoyable. Thank you so much, Atela!</p>
+					<h5>Bill M.</h5>
+					<h6>publisher, The O Magazine</h6>
+				</div>
+				<div class="testimonial-slick-item">
+					<div class="quote-wrapper">
+						<img alt="atlanta" class="img-atlanta"
+							src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/testimonials-quote.jpg">
+					</div>
+					<p>We can't thank Aleta enough for helping us find our dream home in Atlanta. its exactly what we
+						dreamed it
+						would be - and we didn't go over our budget! Aleta's local market knowledge, expertise, and amazing
+						dedication made the whole buying process truly enjoyable. Thank you so much, Atela!</p>
+					<h5>Bill M.</h5>
+					<h6>publisher, The O Magazine</h6>
+				</div>
+				<div class="testimonial-slick-item">
+					<div class="quote-wrapper">
+						<img alt="atlanta" class="img-atlanta"
+							src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/testimonials-quote.jpg">
+					</div>
+					<p>We can't thank Aleta enough for helping us find our dream home in Atlanta. its exactly what we
+						dreamed it
+						would be - and we didn't go over our budget! Aleta's local market knowledge, expertise, and amazing
+						dedication made the whole buying process truly enjoyable. Thank you so much, Atela!</p>
+					<h5>Bill M.</h5>
+					<h6>publisher, The O Magazine</h6>
+				</div>
+				<div class="testimonial-slick-item">
+					<div class="quote-wrapper">
+						<img alt="atlanta" class="img-atlanta"
+							src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/testimonials-quote.jpg">
+					</div>
+					<p>We can't thank Aleta enough for helping us find our dream home in Atlanta. its exactly what we
+						dreamed it
+						would be - and we didn't go over our budget! Aleta's local market knowledge, expertise, and amazing
+						dedication made the whole buying process truly enjoyable. Thank you so much, Atela!</p>
+					<h5>Bill M.</h5>
+					<h6>publisher, The O Magazine</h6>
+				</div>
 			</div>
-			<p>We can't thank Aleta enough for helping us find our dream home in Atlanta. its exactly what we dreamed it
-				would be - and we didn't go over our budget! Aleta's local market knowledge, expertise, and amazing
-				dedication made the whole buying process truly enjoyable. Thank you so much, Atela!</p>
-			<h5>Bill M.</h5>
-			<h6>publisher, The O Magazine</h6>
-				<a class="site-btn-primary" href="[blogurl]" aria-label="btn">View all testimonials +</a>
+	
+			<a class="site-btn-primary" href="[blogurl]" aria-label="btn">View all testimonials +</a>
 		</div>
 		<div class="testimonials-item contact-form">
 			<div class="site-title-primary">
@@ -333,17 +413,17 @@
 					<label for="git-name"></label>
 					<input type="text" id="name" placeholder="Name">
 				</div>
-
+	
 				<div class="form-md pad-left">
 					<label for="git-email"></label>
 					<input type="text" id="git-email" placeholder="Email">
 				</div>
-
+	
 				<div class="form-md pad-right">
 					<label for="git-phone"></label>
 					<input type="text" id="git-phone" placeholder="Phone">
 				</div>
-
+	
 				<div class="form-lg">
 					<label for="git-message"></label>
 					<textarea id="git-message" placeholder="Message"></textarea>
