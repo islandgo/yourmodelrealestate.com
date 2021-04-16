@@ -327,7 +327,7 @@
 					<h2>contact us</h2>
 				</div>
 			</div>
-			<span>Keep up to date on the latest market trends and opportunities in our site.</span>
+			<p>Keep up to date on the latest market trends and opportunities in our site.</p>
 			<div class="git-form">
 				<div class="form-md pad-top">
 					<label for="git-name"></label>
@@ -344,10 +344,10 @@
 					<input type="text" id="git-phone" placeholder="Phone">
 				</div>
 
-				<div class="form-md">
+				<div class="form-lg">
 					<label for="git-message"></label>
 					<textarea id="git-message" placeholder="Message"></textarea>
-					<div class="global-btn">
+					<div class="form-btn">
 						<input type="submit" value="Send" class="primary-btn">
 					</div>
 				</div>
@@ -472,36 +472,32 @@
 			<img alt="logo" class="img-responsive pad-upper" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/logo1.png">
 		</div>
 		
-	
 		<div class="footer-item">
 			<img alt="logo" class="img-responsive pad-middle" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/logo2.png">
-			<p>your model living</p>
-			<p>palmerhouse properties</p>
 		</div>
 		
-	
 		<div class="footer-info">
 			<div class="footer-phone">
-				<span class="ai-font-phone"></span>
+				<img alt="smi" class="-img-smi" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/if-phone.png">
 				<a href="+1.678-849-6920">678-849-6920</a>
 			</div>
 			<div class="footer-email">
-				<span class="ai-font-envelope-f"></span>
+				<img alt="smi" class="-img-smi" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/email.png">
 				<a class="asis-mailto-obfuscated-email" data-value="aleta(at)yourmodelrealestate(dotted)com" href="mailto:aleta@yourmodelrealestate.com">aleta@yourmodelrealestate.com</a>
 			</div>
 		
 			<div class="footer-smi">
 				<a href="[ai_client_facebook]" aria-label="facebook" target="_blank">
-					<span class="ai-font-facebook"></span>
+					<img alt="smi" class="-img-smi" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/smi-fb.png">
 				</a>
 				<a href="[ai_client_instagram]" aria-label="instagram" target="_blank">
-					<span class="ai-font-instagram"></span>
+					<img alt="smi" class="-img-smi" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/smi-insta.png">
 				</a>
 				<a href="[ai_client_youtube]" aria-label="youtube" target="_blank">
-					<span class="ai-font-linkedin"></span>
+					<img alt="smi" class="-img-smi" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/smi-in.png">
 				</a>
 				<a href="[ai_client_yelp]" aria-label="yelp" target="_blank">
-					<span class="ai-font-twitter"></span>
+					<img alt="smi" class="-img-smi" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/smi-twitter.png">
 				</a>
 			</div>
 		</div>
