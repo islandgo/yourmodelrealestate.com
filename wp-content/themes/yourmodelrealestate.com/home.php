@@ -124,33 +124,63 @@
 
 			<div class="slick-item">
 				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img1.jpg">
-				<h3>$3,520,000</h3>
-				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+				<div class="content">
+					<div class="content-bg">
+						<h3>$3,520,000</h3>
+						<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+						<button href="#" class="site-btn-slick">view details +</button>
+					</div>
+				</div>
 			</div>
 			<div class="slick-item">
 				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img2.jpg">
-				<h3>$5,295,000</h3>
-				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+				<div class="content">
+					<div class="content-bg">
+						<h3>$5,295,000</h3>
+						<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+						<button href="#" class="site-btn-slick">view details +</button>
+					</div>
+				</div>
 			</div>
 			<div class="slick-item">
 				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img3.jpg">
-				<h3>$7,920,000</h3>
-				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+				<div class="content">
+					<div class="content-bg">
+						<h3>$7,920,000</h3>
+						<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+						<button href="#" class="site-btn-slick">view details +</button>
+					</div>
+				</div>
 			</div>
 			<div class="slick-item">
 				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img1.jpg">
-				<h3>$3,520,000</h3>
-				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+				<div class="content">
+					<div class="content-bg">
+						<h3>$3,520,000</h3>
+						<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+						<button href="#" class="site-btn-slick">view details +</button>
+					</div>
+				</div>
 			</div>
 			<div class="slick-item">
 				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img2.jpg">
-				<h3>$5,295,000</h3>
-				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+				<div class="content">
+					<div class="content-bg">
+						<h3>$5,295,000</h3>
+						<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+						<button href="#" class="site-btn-slick">view details +</button>
+					</div>
+				</div>
 			</div>
 			<div class="slick-item">
 				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img3.jpg">
-				<h3>$7,920,000</h3>
-				<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+				<div class="content">
+					<div class="content-bg">
+						<h3>$7,920,000</h3>
+						<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
+						<button href="#" class="site-btn-slick">view details +</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -286,7 +316,7 @@
 				would be - and we didn't go over our budget! Aleta's local market knowledge, expertise, and amazing
 				dedication made the whole buying process truly enjoyable. Thank you so much, Atela!</p>
 			<h5>Bill M.</h5>
-			<span>publisher, The O Magazine</span>
+			<h6>publisher, The O Magazine</h6>
 				<a class="site-btn-primary" href="[blogurl]" aria-label="btn">View all testimonials +</a>
 		</div>
 		<div class="testimonials-item contact-form">
@@ -297,7 +327,7 @@
 					<h2>contact us</h2>
 				</div>
 			</div>
-			<p>Keep up to date on the latest market trends and opportunities in our site.</p>
+			<span>Keep up to date on the latest market trends and opportunities in our site.</span>
 			<div class="git-form">
 				<div class="form-md pad-top">
 					<label for="git-name"></label>
