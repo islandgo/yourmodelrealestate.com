@@ -73,7 +73,9 @@
 <!-- About -->
 <section class="hp-about">
 	<div class="comp-about-container container">
-			<img alt="atela" class="img-atela about-img" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/about-img.jpg">
+		<div class="about-img">
+			<img alt="atela" class="img-atela" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/about-img.jpg">
+		</div>
 		<div class="about-item">
 			<div class="site-title-primary about-title">
 				<span class="section-number">02</span>
@@ -488,46 +490,48 @@
 						</div>
 				</div>
 			</div>
-
 		</div>
-		<div class="feature-item main-slick-video">
-		
-			<div class="feature-slick-main-video">
-				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
-					<div class="fv-t-img">
-						<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
-					</div>
+		<div class="main-video">
+			<div class="feature-item main-slick-video">
+			
+				<div class="feature-slick-main-video">
+					<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
+						<div class="fv-t-img">
+							<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+						</div>
+				</div>
+				<div class="feature-slick-main-video">
+					<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
+						<div class="fv-t-img">
+							<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+						</div>
+				</div>
+				<div class="feature-slick-main-video">
+					<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
+						<div class="fv-t-img">
+							<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+						</div>
+				</div>
+				<div class="feature-slick-main-video">
+					<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
+						<div class="fv-t-img">
+							<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+						</div>
+				</div>
+				<div class="feature-slick-main-video">
+					<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
+						<div class="fv-t-img">
+							<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+						</div>
+				</div>
+				<div class="feature-slick-main-video">
+					<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
+						<div class="fv-t-img">
+							<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+						</div>
+				</div>
 			</div>
-			<div class="feature-slick-main-video">
-				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
-					<div class="fv-t-img">
-						<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
-					</div>
-			</div>
-			<div class="feature-slick-main-video">
-				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
-					<div class="fv-t-img">
-						<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
-					</div>
-			</div>
-			<div class="feature-slick-main-video">
-				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
-					<div class="fv-t-img">
-						<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
-					</div>
-			</div>
-			<div class="feature-slick-main-video">
-				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
-					<div class="fv-t-img">
-						<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
-					</div>
-			</div>
-			<div class="feature-slick-main-video">
-				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0"></a>
-					<div class="fv-t-img">
-						<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
-					</div>
-			</div>
+
 		</div>
 
 		<div class="slick-action">
