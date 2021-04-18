@@ -562,7 +562,6 @@
 				<span class="ai-font-arrow-b-n  slick-arrow"></span>
 			</button>
 		</div>
-		
 	</div>
 </section>
 <!-- Featured Videos End -->
@@ -574,12 +573,10 @@
 	<div class="container">
 		<div class="comp-footer-logo">
 			<img alt="logo" class="img-responsive pad-upper" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/logo1.png">
-		</div>
-		
-		<div class="footer-item">
+
 			<img alt="logo" class="img-responsive pad-middle" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/logo2.png">
 		</div>
-		
+			
 		<div class="footer-info">
 			<div class="footer-phone">
 				<img alt="smi" class="-img-smi" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/if-phone.png">
