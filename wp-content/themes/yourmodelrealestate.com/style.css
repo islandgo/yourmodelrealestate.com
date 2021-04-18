@@ -120,7 +120,12 @@ p {
 img {
     max-width: 100%;
 }
-
+select {
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    background: transparent url(images/qs-arrow.png) no-repeat scroll right 12px center;
+} 
 /* Site title primary */
 .site-title-primary {
     display: flex;
@@ -281,6 +286,42 @@ img {
 
 
 /* Quick search start */
+.hp-quick-search input,
+.hp-quick-search select,
+.hp-quick-search .search-btn-primary,
+.hp-quick-search .search-btn-primary,
+.hp-quick-search .serch-btn-secondary {
+    min-height: 58px;
+
+}
+.hp-quick-search input,
+.hp-quick-search select {
+    padding-left: 18px;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    border: 1px solid red;
+}
+.hp-quick-search .search-btn-primary,
+.hp-quick-search .serch-btn-secondary { 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .010em;
+}
+.hp-quick-search .search-btn-primary {
+    background: #0abab5;
+
+}
+.hp-quick-search .serch-btn-secondary {
+    background: red;
+
+}
 .comp-quick-search-container {
     display: grid;
     grid-template-columns: repeat(12,1fr);
