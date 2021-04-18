@@ -1,6 +1,27 @@
 ( function() {
 
 	var app = {
+
+		initDetectScroll: function() {
+			if( jQuery(window).width() > 991 && jQuery(window).scrollTop()  > 56 ) {
+				jQuery('header.header').addClass('show-fixed animated fadeInDown');
+			} else {
+				jQuery('header.header').removeClass('show-fixed animated fadeInDown');
+			}
+		},
+
+		initNavSlide: function(){
+			jQuery('#nav li .sub-menu, #nav2 li .sub-menu').css('display','none');
+                
+            jQuery("#nav li, #nav2 li").hover(
+                function() {
+                    jQuery(this).find("ul.sub-menu").eq(0).animate({"height": "show", "opacity": "show"}, 600, "swing");
+                },
+                function() {
+                    jQuery(this).find("ul.sub-menu").eq(0).hide();
+                },
+			);
+		},
 		
 		initNavigation: function() {
 			var $nav = jQuery( '#nav' );
@@ -69,6 +90,8 @@
 
 	
 	jQuery(document).ready( function() {
+
+		app.initNavSlide();
 		
 		/* Initialize navigation */
 		app.initNavigation();
@@ -93,6 +116,10 @@
 	jQuery(window).on('load', function(){
 
 
+	})
+
+	jQuery(window).on('scroll', function(){
+		app.initDetectScroll();
 	})
 
 

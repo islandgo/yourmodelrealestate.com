@@ -54,40 +54,126 @@ TABLE OF CONTENTS
  *******************************************************/
 
 /* Sub Menu */
-#nav li {
-    position:relative;
-    display: inline-block;
+ul#nav {
+    display: flex;
+    justify-content: space-between;
 }
 
-#nav .sub-menu {
+#nav li,
+#nav2 li{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+#nav > li.menu-item-has-children::after,
+#nav2 > li.menu-item-has-children::after{
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #c7b995;
+    bottom: 0;
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#nav > li:hover.menu-item-has-children::after,
+#nav2 > li:hover.menu-item-has-children::after{
+    opacity: 1;
+    bottom: -17px;
+}
+
+#nav li a,
+#nav2 li a{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#nav > li:hover > a,
+#nav2 > li:hover > a{
+    color: #c7b995;
+}
+  
+#nav .sub-menu,
+#nav2 .sub-menu {
     list-style: none outside none;
     margin: 0;
-    background: rgba(0,0,0,0.9) url("images/submenu-fixer.png");
     display: none;
     padding: 0;
     position: absolute;
- 	width:100%;
- 	min-width:180px;
+    width: 100%;
+    min-width: 208px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 17px;
 }
-#nav .sub-menu a {
+
+#nav .sub-menu a,
+#nav2 .sub-menu a {
     color: #FFFFFF;
     display: block;
-    padding: 10px;
+    font-size: 13px;
+    padding: 13.5px 0;
+    background-color: #c7b995;
+    background-image: linear-gradient(to right, #c7b995 , #e9e1d0, #c7b995);
+    text-align: center;
+    position: relative;
 }
-#nav .sub-menu a:hover {
-    background: none repeat scroll 0 0 var(--light);
-    color: var(--font-color-default);
+
+#nav .sub-menu a::after,
+#nav2 .sub-menu a::after{
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    background: url(images/nav-logo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    opacity: .22;
+}
+
+#nav .sub-menu a:hover,
+#nav2 .sub-menu a:hover {
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 , #000);
     text-decoration: none;
 }
-#nav .sub-menu .sub-menu {
+#nav .sub-menu .sub-menu,
+#nav2 .sub-menu .sub-menu {
+    top: -16px;
+    left: initial;
     margin-left: 100%;
- 	top:0;
+    transform: translateX(0);
 }
-#nav li:hover > .sub-menu {
+#nav li:hover > .sub-menu,
+#nav2 li:hover > .sub-menu {
     display: block;
 }
-#nav .sub-menu li {
+#nav .sub-menu li,
+#nav2 .sub-menu li {
     position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 1px;
 }
 
 
@@ -109,9 +195,6 @@ body{
     /* Remove the comment from line 85 to 86 if the font issue in safari occurs */
     /* -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; */
-}
-header.header {
-    font-size: 0;
 }
 p {
     font-size: 16px;
@@ -162,13 +245,17 @@ img {
 
 /* Site btn primary */
 .site-btn-primary {
+    position: relative;
     width: 100%;
     min-height: 70px;
     display: flex;
+    font-weight: 500;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: .10em;
+    color: #000;
+    text-shadow: 0 0 0 #000;
     font-size: 15px;
     border: 2px solid;
     border-image: linear-gradient(to right, 
@@ -176,7 +263,49 @@ img {
      rgba(208,183,147,1) 49%,
      rgba(124,94,56,1) 100%
      ) 1;
+     -webkit-transition: all 0.4s ease-in-out;
+     -moz-transition: all 0.4s ease-in-out;
+     -o-transition: all 0.4s ease-in-out;
+     transition: all 0.4s ease-in-out;
 }
+
+.site-btn-primary:hover{
+    background-color: #c7b995;
+    background-image: linear-gradient(to right, #c7b995 , #e9e1d0, #c7b995);
+    border-image: none;
+    border-image: linear-gradient(to right, 
+     #c7b995 0%,
+     #e9e1d0 49%,
+     #c7b995 100%
+     ) 1;
+     text-shadow: 0 0 0 #000, 0 0 0 #000, 0 0 0 #000;
+}
+
+.site-btn-primary::before{
+    content: '';
+    position: absolute;
+    width: 52px;
+    height: 42px;
+    background: url(images/nav-logo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.4);
+    pointer-events: none;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.site-btn-primary:hover::before{
+    opacity: .60;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
 
 /* Slick actions */
 
@@ -256,6 +385,146 @@ img {
     opacity: 0.75;
     color: black;
   }
+
+
+  /* Header */
+  header.header {
+    font-size: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1010;
+    padding: 35px 0;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1297px;
+    margin: 0 auto;
+}
+
+.header-right {
+    width: 776px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hdr-top {
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    text-align: center;
+    margin: 0 0 26px;
+    position: relative;
+}
+
+.hdr-top::after,
+.hdr-top::before {
+    content: '';
+    position: absolute;
+    width: 168px;
+    height: 1px;
+    background: #a8a6a2;
+    top: 50%;
+    right: 0;
+    pointer-events: none;
+}
+
+.hdr-top::before{
+    right: initial;
+    left: 0;
+}
+
+.fixed-header {
+    position: fixed;
+    top: -300px;
+    width: 100%;
+    left: 0;
+    background: rgba(55,43,76,.90);
+    padding: 15px 0;
+    z-index: 1010;
+    pointer-events: none;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.header.show-fixed .fixed-header{
+    pointer-events: all;
+    top: 0;
+    opacity: 1;
+}
+
+.fxh-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -9px;
+    margin-right: -73px;
+}
+
+#nav2 > li {
+    margin-left: 25px;
+}
+
+#nav2 > li:first-child {
+    margin-left: 0;
+}
+
+#nav2 .sub-menu {
+    padding-top: 43px;
+}
+
+#nav2 > li:hover.menu-item-has-children::after {
+    bottom: -43px;
+}
+  /* End Header */
+
+  /* Slideshow */
+.hp-slideshow{
+    position: relative;
+    font-size: 0;
+}
+
+.hp-slideshow .cycle-slide::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.63+0,0+38 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.63) 0%, rgba(0,0,0,0) 38%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.63) 0%,rgba(0,0,0,0) 38%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.63) 0%,rgba(0,0,0,0) 38%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    z-index: 1;
+    pointer-events: none;
+}
+
+.hp-slideshow .cycle-slide::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+62,0.63+100 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 62%, rgba(0,0,0,0.63) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 62%,rgba(0,0,0,0.63) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 62%,rgba(0,0,0,0.63) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a1000000',GradientType=0 ); /* IE6-9 */
+    z-index: 1;
+    pointer-events: none;
+}
+  /* End Slideshow */
 /*******************************************************
  *
  * 4. IP Styles
@@ -752,10 +1021,155 @@ img {
     padding: 56px 30px 74px 30px;
 }
 
+.cta-item a {
+    position: relative;
+    display: block;
+}
+
+.cta-img{
+    position: relative;
+}
+
+.cta-img::after{
+    content: '';
+    position: absolute;
+    width: 201px;
+    height: 161px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.4);
+    pointer-events: none;
+    background: url(images/cta-logo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.cta-item a:hover .cta-img::after{
+    opacity: .24;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.cta-img::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(78,51,98,.72);
+    transform: scale(.5);
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.cta-item a:hover .cta-img::before{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.cta-line{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.comp-cta-container .cta-item:nth-child(odd) a .cta-line::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 38.5%;
+    background: #bfa580;
+    top: -10px;
+    left: -6px;
+    pointer-events: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.comp-cta-container .cta-item:nth-child(odd) a:hover .cta-line::after{
+    height: 0;
+    opacity: 0;
+}
+
+.comp-cta-container .cta-item:nth-child(odd) a .cta-line::before {
+    content: '';
+    position: absolute;
+    width: 49%;
+    height: 1px;
+    left: -6px;
+    top: -10px;
+    background: #bfa580;
+    pointer-events: none;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.comp-cta-container .cta-item:nth-child(odd) a:hover .cta-line::before{
+    width: 0;
+    opacity: 0;
+}
+
+.comp-cta-container .cta-item:nth-child(even) a .cta-line::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 38.5%;
+    background: #bfa580;
+    bottom: -10px;
+    right: -6px;
+    pointer-events: none;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.comp-cta-container .cta-item:nth-child(even) a:hover .cta-line::after{
+    opacity: 0;
+    height: 0;
+}
+
+.comp-cta-container .cta-item:nth-child(even) a .cta-line::before{
+    content: '';
+    position: absolute;
+    width: 49%;
+    height: 1px;
+    right: -6px;
+    bottom: -10px;
+    background: #bfa580;
+    pointer-events: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.comp-cta-container .cta-item:nth-child(even) a:hover .cta-line::before{
+    opacity: 0;
+    width: 0;
+}
+
 .comp-cta-container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 5px;
+    grid-gap: 12px;
     grid-template-areas: 
     "buyers search sellers homeValuation"
     ;

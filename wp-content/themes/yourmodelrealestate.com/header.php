@@ -20,14 +20,35 @@
 
 
 	<header class="header">
-		<div class="container">
-			<div class="logo">
-				<a href="<?php echo esc_url( home_url() ) ?>" class="site-name"><?php bloginfo('name'); ?></a>
+		<div class="container-fluid">
+			<div class="header-inner">
+				<div class="header-logo">
+					<a href="[blogurl]" aria-label="logo">
+						<img alt="logo" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/logo1.png">
+					</a>
+				</div>
+	
+				<div class="header-right">
+					<div class="hdr-top">Your Model Living</div>
+					<nav class="navigation">
+						<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_id' => 'nav', 'theme_location' => 'primary-menu' ) ); ?>
+					</nav>
+				</div>
 			</div>
-
-			<nav class="navigation">
-				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_id' => 'nav', 'theme_location' => 'primary-menu' ) ); ?>
-			</nav>
+			<div class="fixed-header">
+				<div class="container">
+					<div class="fxh-inner">
+						<div class="fixed-logo">
+							<a href="[blogurl]" aria-label="logo">
+								<img alt="logo" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fixed-logo.png">
+							</a>
+						</div>
+						<nav class="navigation">
+							<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_id' => 'nav2', 'theme_location' => 'primary-menu' ) ); ?>
+						</nav>
+					</div>
+				</div>
+			</div>
 		</div>
 	</header>
 

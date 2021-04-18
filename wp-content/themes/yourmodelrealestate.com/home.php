@@ -281,20 +281,40 @@
 <section class="hp-cta">
 	<div class="comp-cta-container">
 		<div class="cta-item">
-			<img alt="buyers" class="img-buyers" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/cta1.jpg">
-			<h3>buyers</h3>
+			<a href="#" aria-label="cta">
+				<div class="cta-img">
+					<img alt="buyers" class="img-buyers" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/cta1.jpg">
+					<div class="cta-line"></div>
+				</div>
+				<h3>buyers</h3>
+			</a>
 		</div>
 		<div class="cta-item">
-			<img alt="search" class="img-search" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/cta2.jpg">
-			<h3>search</h3>
+			<a href="#" aria-label="cta">
+				<div class="cta-img">
+					<img alt="search" class="img-search" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/cta2.jpg">
+					<div class="cta-line"></div>
+				</div>
+				<h3>search</h3>
+			</a>
 		</div>
 		<div class="cta-item">
-			<img alt="sellers" class="img-sellers" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/cta3.jpg">
-			<h3>sellers</h3>
+			<a href="#" aria-label="cta">
+				<div class="cta-img">
+					<img alt="sellers" class="img-sellers" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/cta3.jpg">
+					<div class="cta-line"></div>
+				</div>
+				<h3>sellers</h3>
+			</a>
 		</div>
 		<div class="cta-item">
-			<img alt="home" class="img-home" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/cta4.jpg">
-			<h3>home valuation</h3>
+			<a href="#" aria-label="cta">
+				<div class="cta-img">
+					<img alt="home" class="img-home" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/cta4.jpg">
+					<div class="cta-line"></div>
+				</div>
+				<h3>home valuation</h3>
+			</a>
 		</div>
 	</div>
 </section>
