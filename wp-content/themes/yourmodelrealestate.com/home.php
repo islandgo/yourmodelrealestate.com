@@ -478,42 +478,52 @@
 			<a class="site-btn-primary" href="[blogurl]" aria-label="btn">View all videos +</a>
 			<div class="feature-slick-video">
 				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
+				<div class="img-wrapper">
 					<canvas width="219" height="200" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails1.jpg);"></canvas>
+				</div>
 					
 					<div class="gallery-btn">
                 	<span class="ai-font-play-button-a"></span>
             		</div>
 				</a>
-				
 				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
-					<canvas width="219" height="200" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails2.jpg);"></canvas>
+					<div class="img-wrapper">
+						<canvas width="219" height="200" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails2.jpg);"></canvas>
+					</div>
 					<div class="gallery-btn">
                 	<span class="ai-font-play-button-a"></span>
             		</div>
 				</a>
-
 				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
-					<canvas width="219" height="200" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails3.jpg);"></canvas>
+					<div class="img-wrapper">
+						<canvas width="219" height="200" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails3.jpg);"></canvas>		
+					</div>
 					<div class="gallery-btn">
                 	<span class="ai-font-play-button-a"></span>
            			</div>
 				</a>
 				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
-					<canvas width="219" height="200" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails1.jpg);"></canvas>
+					<div class="img-wrapper">
+						<canvas width="219" height="200" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails1.jpg);"></canvas>
+					</div>
 					<div class="gallery-btn">
                 	<span class="ai-font-play-button-a"></span>
             		</div>
 				</a>
 				
 				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
-					<canvas width="219" height="200" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails2.jpg);"></canvas>
+					<div class="img-wrapper">
+						<canvas width="219" height="200" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails2.jpg);"></canvas>
+					</div>
 					<div class="gallery-btn">
                 	<span class="ai-font-play-button-a"></span>
             		</div>
 				</a>
-
+				
 				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
-					<canvas width="219" height="200" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails3.jpg);"></canvas>
+					<div class="img-wrapper">
+						<canvas width="219" height="200" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails3.jpg);"></canvas>
+					</div>
 					<div class="gallery-btn">
                 		<span class="ai-font-play-button-a"></span>
             		</div>
