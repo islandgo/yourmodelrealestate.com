@@ -287,6 +287,7 @@
 	.comp-quick-search-container .site-title-primary {
 		grid-row: 1;
 		grid-column: 1 / -1;
+		margin-bottom: 16px;
 	}
 	.comp-search-container {
 		grid-column: 1 / -1;
@@ -301,11 +302,23 @@
 	/* About start*/
 	.hp-about .about-img {
 		grid-column: 1/-1;
-		grid-row: 1;
+		grid-row: 2/3;
+		margin: auto;
 	}
 	.hp-about .about-item {
 		grid-column: 1/-1;
-		grid-row: 2;
+		grid-row: 1/2;
+		margin-bottom: 24px;
+	}
+	.hp-about .about-img:after,
+	.hp-about::after {
+		display: none;
+	}
+	.hp-about .about-item {
+		padding: 0;
+	}
+	.comp-about-container .site-btn-primary {
+		margin: auto;
 	}
 	/* About end*/
 

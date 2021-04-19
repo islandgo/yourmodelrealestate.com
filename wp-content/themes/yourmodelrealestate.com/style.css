@@ -800,7 +800,7 @@ select {
     opacity: 0.12;
 }
 
-.comp-about-container a {
+.comp-about-container .site-btn-primary {
     max-width: 210px;
 }
 
@@ -869,6 +869,13 @@ select {
     width: 63.16%;
 
 }
+.featured-property-slick .slick-list {
+    margin: 0 -4px;
+}
+.featured-property-slick .slick-slide {
+    margin: 0 4px;
+}
+
 .featured-property-slick .slick-item {
     position: relative;
 }
@@ -1029,6 +1036,7 @@ select {
     background: #372b4c;
     opacity: 0.8;
     padding: 15px 10px;
+    width: 100%;
 }
 
 /* Featured-properties end */

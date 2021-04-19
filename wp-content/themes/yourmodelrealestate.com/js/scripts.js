@@ -34,7 +34,16 @@
 				slidesToShow: 3,
 				dots: false,
 				arrows: false,
-				focusOnSelect: true
+				focusOnSelect: true,
+				responsive: [
+					{
+						breakpoint: 992,
+						settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1,
+						}
+					},
+				]
 			});
 			$('.hp-featured-properties .slick-next').click(function() {
 				$(featuredPropertiesSlick).slick('slickNext');
