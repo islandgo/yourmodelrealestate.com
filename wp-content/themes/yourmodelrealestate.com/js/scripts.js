@@ -2,6 +2,13 @@
 
 	var app = {
 
+		aosInit: function() {
+
+			setTimeout(function(){
+				AOS.init();
+			}, 1000);
+		},
+
 		initDetectScroll: function() {
 			if( jQuery(window).width() > 991 && jQuery(window).scrollTop()  > 56 ) {
 				jQuery('header.header').addClass('show-fixed animated fadeInDown');
@@ -90,6 +97,8 @@
 
 	
 	jQuery(document).ready( function() {
+
+		app.aosInit();
 
 		app.initNavSlide();
 		

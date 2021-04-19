@@ -12,7 +12,7 @@
 <!-- Quick Search -->
 <section class="hp-quick-search">
 	<div class="comp-quick-search-container container">
-		<div class="quick-search-item site-title-primary">
+		<div class="quick-search-item site-title-primary" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
 			<span class="section-number">01</span>
 			<div class="section-name">
 				<h4>quick</h4>
@@ -73,10 +73,10 @@
 <!-- About -->
 <section class="hp-about">
 	<div class="comp-about-container container">
-		<div class="about-img">
+		<div class="about-img" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
 			<img alt="atela" class="img-atela" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/about-img.jpg">
 		</div>
-		<div class="about-item">
+		<div class="about-item" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
 			<div class="site-title-primary about-title">
 				<span class="section-number">02</span>
 				<div class="section-name">
@@ -99,7 +99,7 @@
 <!-- About End -->
 
 <!-- Featured Properties -->
-<section class="hp-featured-properties">
+<section class="hp-featured-properties" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
 	<div class="comp-featured-properties-container ">
 		<div class="properties-item property-content">
 			<div class="site-title-primary">
@@ -190,7 +190,7 @@
 <!-- Featured Properties End -->
 
 <!-- Featured Areas -->
-<section class="hp-featured-areas">
+<section class="hp-featured-areas" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
 	<div class="comp-featured-areas-container ">
 		<div class="featured-areas-item areas">
 			<div class="site-title-primary">
@@ -280,7 +280,7 @@
 <!-- CTA -->
 <section class="hp-cta">
 	<div class="comp-cta-container">
-		<div class="cta-item">
+		<div class="cta-item" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
 			<a href="#" aria-label="cta">
 				<div class="cta-img">
 					<span class="img-bottom-border"></span>
@@ -290,7 +290,7 @@
 				<h3>buyers</h3>
 			</a>
 		</div>
-		<div class="cta-item">
+		<div class="cta-item" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
 			<a href="#" aria-label="cta">
 				<div class="cta-img">
 					<span class="img-bottom-border"></span>
@@ -300,7 +300,7 @@
 				<h3>search</h3>
 			</a>
 		</div>
-		<div class="cta-item">
+		<div class="cta-item" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
 			<a href="#" aria-label="cta">
 				<div class="cta-img">
 					<span class="img-bottom-border"></span>
@@ -310,7 +310,7 @@
 				<h3>sellers</h3>
 			</a>
 		</div>
-		<div class="cta-item">
+		<div class="cta-item" data-aos="fade-left" data-aos-delay="800" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
 			<a href="#" aria-label="cta">
 				<div class="cta-img">
 					<span class="img-bottom-border"></span>
@@ -327,7 +327,7 @@
 <!-- Testimonials -->
 <section class="hp-testimonials">
 	<div class="comp-testimonials-container container">
-		<div class="testimonials-item testimonial">
+		<div class="testimonials-item testimonial" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
 			<div class="site-title-primary">
 				<span class="section-number">05</span>
 				<div class="section-name">
@@ -425,7 +425,7 @@
 	
 			<a class="site-btn-primary" href="[blogurl]" aria-label="btn">View all testimonials +</a>
 		</div>
-		<div class="testimonials-item contact-form">
+		<div class="testimonials-item contact-form" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
 			<div class="site-title-primary">
 				<span class="section-number">06</span>
 				<div class="section-name">
@@ -465,7 +465,7 @@
 <!-- Testimonials End -->
 
 <!-- Featured Videos -->
-<section class="hp-featured-videos">
+<section class="hp-featured-videos" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true" data-aos-id="trigger-counter">
 	<div class="comp-featured-videos-container">
 
 		<div class="featured-title-steps">
