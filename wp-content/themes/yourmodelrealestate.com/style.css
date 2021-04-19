@@ -912,7 +912,6 @@ select {
 
 .comp-featured-properties-container .view-detail-link {
     width: 210px;
-    min-height: 48px;
     display: none;
     align-items: center;
     justify-content: center;
@@ -929,6 +928,25 @@ select {
     max-width: 210px;
     color: #000000;
 }
+
+.comp-featured-properties-container .slick-item .content-bg p{
+    line-height: 21px;
+    padding-right: 34px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.comp-featured-properties-container .slick-item .content-bg h3{
+    padding-bottom: 8px;
+}
+
+.comp-featured-properties-container .slick-item .content-bg a{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .comp-featured-properties-container .slick-item .content-bg:hover {
     background-color: #c7b995;
     background-image: linear-gradient(to right, #c7b995 , #e9e1d0, #c7b995);
@@ -1183,10 +1201,10 @@ select {
 }
 .comp-cta-container .img-bottom-border {
     position: absolute;
-    bottom: -27px;
-    width: 2px;
-    height: 60px;
-    background: red;
+    bottom: -26px;
+    width: 1px;
+    height: 38px;
+    background: #bfa580;
     z-index: 2;
     left: 50%;
 }
@@ -1357,7 +1375,7 @@ select {
 }
 
 .comp-testimonials-container .testimonial p {
-    padding: 30px 0;
+    padding: 30px 6px;
     color: #ffffff;
 }
 .testimonial h5 {
@@ -1498,11 +1516,12 @@ select {
 .feature-slick-video .slick-slide{
     margin: 0 12px;
 }
-.feature-slick-video .fv-t-img canvas{
+.feature-slick-video  canvas{
     background-repeat: no-repeat;
-    border: solid 4px red;
+    border: solid 6px #eaeaea;
     width: 100%;
 }
+
 
 .feature-slick-video::before {
     content: " ";
@@ -1519,11 +1538,25 @@ select {
     margin: auto;
 }
 
+.main-video  canvas {
+    background-repeat: no-repeat;
+    border: solid 6px #eaeaea;
+    width: 100%;
+}
 
 .main-slick-video {
     max-width: 698px;
     position: relative;
 }
+
+.main-slick-video.slick-list{
+    margin: 0 -12px;
+}
+.main-slick-video .slick-slide{
+    margin: 0 12px;
+}
+
+
 .hp-featured-videos .main-slick-video:after {
     position: absolute;
     border-top: solid 1px #c6b792;
