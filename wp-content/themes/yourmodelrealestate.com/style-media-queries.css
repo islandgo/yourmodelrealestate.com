@@ -312,6 +312,7 @@
 	.hp-about {
 		padding: 0;
 		padding-bottom: 20px;
+		margin-bottom: 40px;
 	}
 
 	.comp-quick-search-container .site-title-primary {
@@ -354,6 +355,9 @@
 
 
 	/* Featured-properties start */
+	.hp-featured-properties {
+		padding-top: 0;
+	}
 	.comp-featured-properties-container  {
 		flex-direction: column;
 		padding-left: 0;
@@ -364,6 +368,9 @@
 	.comp-featured-properties-container .featured-property-slick {
 		width: 100%;
 		padding: 0 16px;
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.comp-featured-properties-container .site-btn-primary {
@@ -373,7 +380,19 @@
 	}
 
 	.comp-featured-properties-container .slick-action {
-		margin-left: 44%;
+		display: flex;
+		justify-content: center;
+		order: 4;
+		margin-top: 24px;
+	}
+
+	.properties-item {
+		padding: 20px 20px 0 0;
+	}
+
+	.comp-featured-properties-container .property-content {
+		display: flex;
+		flex-direction: column;
 	}
 
 	.properties-item p {
@@ -384,7 +403,9 @@
 
 
 	/* Featured-areas start */
-
+	.hp-featured-areas {
+		padding-top: 32px;
+	}
 	.comp-featured-areas-container {
 		grid-template-columns: repeat(2,1fr);
     	grid-template-rows: repeat(5,auto);
@@ -402,6 +423,7 @@
 
 	.comp-featured-areas-container .areas {
 		padding: 0 16px;
+		margin-bottom: 24px;
 	}
 
 	.comp-featured-areas-container .areas p {
@@ -436,6 +458,11 @@
 
 
 	/* Testimonials start */
+
+	.hp-testimonials {
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
 	.hp-testimonials .slick-dots {
 		bottom: 95px;
@@ -482,7 +509,9 @@
 
 
 	/* Featured Videos start */
-	
+	.hp-featured-videos {
+		padding: 32px 0 82px;
+	}
 	.hp-featured-videos:after {
 		display: none;
 	}
@@ -543,7 +572,7 @@
 /* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */ 
 @media only screen and (max-width: 767px) {
 	/* 481 */
-
+	
 	/* Header start */
 
 	/* Header end */
@@ -555,7 +584,12 @@
 
 
 	/* Quick search start */
-
+	.comp-search-container {
+		display: block;
+	}
+	.comp-search-container .form-item {
+		margin-bottom: 14px;
+	}
 	/* Quick search end */
 
 
@@ -587,6 +621,13 @@
 	/* Featured Videos start */
 
 	/* Featured Videos end */
+
+	/* footer start */
+	.footer .footernav {
+		grid-gap: 12px;
+		grid-auto-flow: row;
+	}
+	/* footer end */
 
     .ip-banner .container{
         width: 100%;
