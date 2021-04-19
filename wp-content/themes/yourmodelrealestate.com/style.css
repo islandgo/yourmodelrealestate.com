@@ -903,7 +903,7 @@ select {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(78,51,98,.72);
+    background: rgba(0,0,0,.40);
     opacity: 0;
     z-index: 1;
 }

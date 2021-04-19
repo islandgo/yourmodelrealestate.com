@@ -170,6 +170,14 @@
 
 	/* Cta start */
 
+	.hp-cta {
+		padding: 0 30px 20px 30px;
+	}
+
+	.cta-item h3 {
+		font-size: 35px;
+	}
+
 	/* Cta end */
 
 
