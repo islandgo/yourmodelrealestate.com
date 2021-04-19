@@ -1017,6 +1017,7 @@ select {
      ) 1;
      text-shadow: 0 0 0 #000, 0 0 0 #000, 0 0 0 #000;
      opacity: 1;
+     width: 100%;
 }
 
 .comp-featured-properties-container .slick-item:hover .content{
