@@ -1445,7 +1445,7 @@ select {
     letter-spacing: 0.05em;
 }
 
-.testimonials-item h6 {
+.testimonial h6 {
     color: #ffffff;
 }
 
@@ -1710,7 +1710,6 @@ select {
 
 .main-video canvas {
     background-repeat: no-repeat;
-    border: solid 6px #eaeaea;
     max-width: 100%;
 }
 

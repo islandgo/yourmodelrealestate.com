@@ -210,6 +210,11 @@
 
 
 	/* Cta start */
+
+	.hp-cta {
+		padding: 28px 30px;
+	}
+
 	.cta-item a:hover .cta-img::after {
 		transform: translate(-50%, -50%) scale(.45);
 	}
@@ -220,6 +225,17 @@
 
 
 	/* Testimonials start */
+
+	.hp-testimonials .slick-dots {
+		bottom: 37px;
+		right: 2px;
+	}
+
+	.comp-testimonials-container .site-btn-primary {
+		max-width: 235px;
+		font-size: 12px;
+	}
+
 	.testimonial-slick {
 		max-width: 420px;
 	}
@@ -227,6 +243,26 @@
 
 
 	/* Featured Videos start */
+
+	.comp-featured-videos-container .site-btn-primary {
+		max-width: 224px;
+		margin: 22px auto 0;
+		font-size: 14px;
+	}
+
+	.comp-featured-videos-container .slick-action {
+		right: 3px;
+	}
+
+	.feature-slick-video .ai-font-play-button-a {
+		height: 56px;
+		width: 56px;
+	}
+
+	.slick-next, .slick-prev {
+		min-height: 34px;
+		min-width: 34px;
+	}
 
 	/* Featured Videos end */
 } 
@@ -236,7 +272,9 @@
 	/* 768 */
 	
 	/* Header start */
-
+	.header {
+		display: none;
+	}
 	/* Header end */
 
 
@@ -246,17 +284,42 @@
 
 
 	/* Quick search start */
-
+	.comp-quick-search-container .site-title-primary {
+		grid-row: 1;
+		grid-column: 1 / -1;
+	}
+	.comp-search-container {
+		grid-column: 1 / -1;
+		grid-row: 2;
+	}
+	.comp-search-container {
+		margin-left: 0;
+	}
 	/* Quick search end */
 
 
 	/* About start*/
-
+	.hp-about .about-img {
+		grid-column: 1/-1;
+		grid-row: 1;
+	}
+	.hp-about .about-item {
+		grid-column: 1/-1;
+		grid-row: 2;
+	}
 	/* About end*/
 
 
 	/* Featured-properties start */
-
+	.comp-featured-properties-container  {
+		flex-direction: column;
+	}
+	.comp-featured-properties-container .property-content {
+		width: 100%;
+	}
+	.comp-featured-properties-container .featured-property-slick {
+		width: 100%;
+	}
 	/* Featured-properties end */
 
 
@@ -267,16 +330,74 @@
 
 	/* Cta start */
 
+	.comp-cta-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template: none;
+		grid-gap: 24px;
+	}
+	.cta-item a {
+		max-width: 450px;
+		margin: 0 auto;
+	}
 	/* Cta end */
 
 
 	/* Testimonials start */
 
+	.hp-testimonials .slick-dots {
+		bottom: 95px;
+		right: 36%;
+	}
+
+	.comp-testimonials-container {
+		grid-template-areas: 
+		"testimonial testimonial"
+		"contactForm contactForm";
+	}
+	
+	.comp-testimonials-container .testimonial p {
+		text-align: center;
+	}
+
+	.comp-testimonials-container .site-btn-primary {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.site-title-primary {
+		justify-content: center;
+	}
+
+	.testimonial {
+		padding: 22px 12px;
+	}
+
+	.testimonial h5 {
+		text-align: center;
+	}
+
+	.testimonial h6 {
+		text-align: center;
+	}
+
+	.testimonial-slick {
+		max-width: none;
+	}
+
+
 	/* Testimonials End */
 
 
 	/* Featured Videos start */
-
+	.comp-featured-videos-container .video-item {
+		grid-column: 1/-1;
+		grid-row: 1;
+	}
+	.comp-featured-videos-container .main-video {
+		grid-column: 1/-1;
+		grid-row: 2;
+	}
 	/* Featured Videos end */
 
 
