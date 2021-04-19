@@ -857,7 +857,7 @@ select {
     width: 37.84%;
 
 }
-.comp-featured-properties-container a {
+.comp-featured-properties-container .site-btn-primary {
     max-width: 252px;
 }
 
@@ -940,14 +940,14 @@ select {
     padding-bottom: 8px;
 }
 
-.comp-featured-properties-container .slick-item .content-bg a{
+.comp-featured-properties-container .slick-item .content-bg .view-detail-link{
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 12px;
     font-weight: 400;
 }
 
-.comp-featured-properties-container .slick-item .content-bg:hover {
+.comp-featured-properties-container .slick-item:hover .content-bg {
     background-color: #c7b995;
     background-image: linear-gradient(to right, #c7b995 , #e9e1d0, #c7b995);
     border-image: none;
@@ -1510,11 +1510,28 @@ select {
     position: relative;
 
 }
+
+
+
+.gallery-btn {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .feature-slick-video .slick-list{
-    margin: 0 -12px;
+    margin: -14px -12px;
 }
 .feature-slick-video .slick-slide{
-    margin: 0 12px;
+    margin: 0 6px;
 }
 .feature-slick-video  canvas{
     background-repeat: no-repeat;
@@ -1595,8 +1612,12 @@ select {
 }
 .comp-featured-videos-container .video-item {
     grid-column: 1/12;
+}
+
+.comp-featured-videos-container .aios-video-popup {
     margin-top: 0;
     margin-bottom: 0;
+    position: relative;
 }
 
 .comp-featured-videos-container .main-video {
@@ -1606,14 +1627,26 @@ select {
 .comp-featured-videos-container .site-title-primary {
     justify-content: center;
 } 
-.comp-featured-videos-container a {
+.feature-slick-video  .ai-font-play-button-a {
+    height: 86px;
+    width: 86px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #d1cfcf;
+}
+
+.comp-featured-videos-container .site-btn-primary {
     max-width: 278px;
     margin: 61px auto 58px;
 }
 
 .comp-featured-videos-container .slick-action {
     position: absolute;
-    right: 41px;
+    right: 68px;
     top: 0;
 }
 

@@ -126,63 +126,63 @@
 
 			<div class="slick-item">
 				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img1.jpg">
-				<div class="content">
+				<a href="#" class="content">
 					<div class="content-bg">
 						<h3>$3,520,000</h3>
 						<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
-						<a href="#" class="view-detail-link">view details +</a>
+						<span class="view-detail-link">view details +</span>
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="slick-item">
 				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img2.jpg">
-				<div class="content">
+				<a href="#" class="content">
 					<div class="content-bg">
 						<h3>$5,295,000</h3>
 						<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
-						<a href="#" class="view-detail-link">view details +</a>
+						<span class="view-detail-link">view details +</span>
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="slick-item">
 				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img3.jpg">
-				<div class="content">
+				<a href="#" class="content">
 					<div class="content-bg">
 						<h3>$7,920,000</h3>
 						<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
-						<a href="#" class="view-detail-link">view details +</a>
+						<span class="view-detail-link">view details +</span>
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="slick-item">
 				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img1.jpg">
-				<div class="content">
+				<a href="#" class="content">
 					<div class="content-bg">
 						<h3>$3,520,000</h3>
 						<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
-						<a href="#" class="view-detail-link">view details +</a>
+						<span class="view-detail-link">view details +</span>
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="slick-item">
 				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img2.jpg">
-				<div class="content">
+				<a href="#" class="content">
 					<div class="content-bg">
 						<h3>$5,295,000</h3>
 						<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
-						<a href="#" class="view-detail-link">view details +</a>
+						<span class="view-detail-link">view details +</span>
 					</div>
-				</div>
+				</a>
 			</div>
 			<div class="slick-item">
 				<img alt="properties" class="img-properties" src="http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fp-img3.jpg">
-				<div class="content">
+				<a href="#" class="content">
 					<div class="content-bg">
 						<h3>$7,920,000</h3>
 						<p>1700 east walnut avenue, suite 400, atlanta, 90245</p>
-						<a href="#" class="view-detail-link">view details +</a>
+						<span class="view-detail-link">view details +</span>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -477,7 +477,7 @@
 			</div>
 			<a class="site-btn-primary" href="[blogurl]" aria-label="btn">View all videos +</a>
 			<div class="feature-slick-video">
-				<a class="video-item aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
+				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
 					<canvas width="219" height="166" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails1.jpg);"></canvas>
 					
 					<div class="gallery-btn">
@@ -485,34 +485,34 @@
             		</div>
 				</a>
 				
-				<a class="video-item aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
+				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
 					<canvas width="219" height="166" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails2.jpg);"></canvas>
 					<div class="gallery-btn">
                 	<span class="ai-font-play-button-a"></span>
             		</div>
 				</a>
 
-				<a class="video-item aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
+				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
 					<canvas width="219" height="166" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails3.jpg);"></canvas>
 					<div class="gallery-btn">
                 	<span class="ai-font-play-button-a"></span>
            			</div>
 				</a>
-				<a class="video-item aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
+				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
 					<canvas width="219" height="166" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails1.jpg);"></canvas>
 					<div class="gallery-btn">
                 	<span class="ai-font-play-button-a"></span>
             		</div>
 				</a>
 				
-				<a class="video-item aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
+				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
 					<canvas width="219" height="166" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails2.jpg);"></canvas>
 					<div class="gallery-btn">
                 	<span class="ai-font-play-button-a"></span>
             		</div>
 				</a>
 
-				<a class="video-item aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
+				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
 					<canvas width="219" height="166" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/thumbnails3.jpg);"></canvas>
 					<div class="gallery-btn">
                 		<span class="ai-font-play-button-a"></span>
@@ -523,55 +523,48 @@
 		</div>
 		<div class="main-video">
 			<div class="feature-item main-slick-video">
+				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">
+					<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+					<div class="gallery-btn">
+						<span class="ai-font-play-button-a"></span>
+					</div>
+				</a>
 			
-				<div class="feature-slick-main-video">
-					<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">
-						<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
-						<div class="gallery-btn">
-							<span class="ai-font-play-button-a"></span>
-						</div>
-					</a>
-				</div>
-				<div class="feature-slick-main-video">
-					<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">
-						<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
-						<div class="gallery-btn">
-							<span class="ai-font-play-button-a"></span>
-						</div>
-					</a>
-				</div>
-				<div class="feature-slick-main-video">
-					<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">
-						<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
-						<div class="gallery-btn">
-							<span class="ai-font-play-button-a"></span>
-						</div>
-					</a>
-				</div>
-				<div class="feature-slick-main-video">
-					<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">
-						<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
-						<div class="gallery-btn">
-							<span class="ai-font-play-button-a"></span>
-						</div>
-					</a>
-				</div>
-				<div class="feature-slick-main-video">
-					<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">
-						<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
-						<div class="gallery-btn">
-							<span class="ai-font-play-button-a"></span>
-						</div>
-					</a>
-				</div>
-				<div class="feature-slick-main-video">
-					<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">
-						<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
-						<div class="gallery-btn">
-							<span class="ai-font-play-button-a"></span>
-						</div>
-					</a>
-				</div>
+				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">
+					<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+					<div class="gallery-btn">
+						<span class="ai-font-play-button-a"></span>
+					</div>
+				</a>
+
+				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">
+					<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+					<div class="gallery-btn">
+						<span class="ai-font-play-button-a"></span>
+					</div>
+				</a>
+			
+				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">
+					<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+					<div class="gallery-btn">
+						<span class="ai-font-play-button-a"></span>
+					</div>
+				</a>
+				
+				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">
+					<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+					<div class="gallery-btn">
+						<span class="ai-font-play-button-a"></span>
+					</div>
+				</a>
+				
+				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">
+					<canvas width="698" height="436" style="background-image: url(http://localhost/isd-projects/yourmodelrealestate.com/wp-content/themes/yourmodelrealestate.com/images/fv-img.jpg);"></canvas>
+					<div class="gallery-btn">
+						<span class="ai-font-play-button-a"></span>
+					</div>
+				</a>
+				
 			</div>
 
 		</div>
