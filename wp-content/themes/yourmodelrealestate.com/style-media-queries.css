@@ -36,7 +36,12 @@
 
 
 	/* Featured-areas start */
-
+	.comp-featured-areas-container .areas {
+		padding: 0 110px 0 226px;
+	}
+	.comp-featured-areas-container .areas p {
+		padding: 18px 0 20px 0;
+	}
 	/* Featured-areas end */
 
 
@@ -46,7 +51,12 @@
 
 
 	/* Testimonials start */
-
+	.comp-testimonials-container .contact-form {
+		margin-right: 0;
+	}
+	.contact-form {
+		padding: 32px 24px;
+	}
 	/* Testimonials End */
 
 
