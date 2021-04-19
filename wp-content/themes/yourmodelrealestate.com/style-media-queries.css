@@ -385,6 +385,36 @@
 
 	/* Featured-areas start */
 
+	.comp-featured-areas-container {
+		grid-template-columns: repeat(2,1fr);
+    	grid-template-rows: repeat(5,1fr);
+		grid-template-areas: 
+		"areas areas"
+		"atlanta fulton"
+		"cobb dekalb"
+		"gwinnett forsyth"
+		"fayette henry"
+		"rockdale clayton"
+		;
+	}
+
+	.comp-featured-areas-container .areas {
+		padding: 0 16px;
+	}
+
+	.comp-featured-areas-container .areas p {
+		padding: 4px 0 24px 0;
+		text-align: center;
+	}
+
+	.comp-featured-areas-container .featured-areas-item a {
+		margin: 0 auto;
+	}
+
+	.comp-featured-videos-container {
+		grid-row-gap: 14px;
+	}
+
 	/* Featured-areas end */
 
 
@@ -450,6 +480,14 @@
 
 
 	/* Featured Videos start */
+	
+	.hp-featured-videos:after {
+		display: none;
+	}
+
+	.hp-featured-videos .main-slick-video:after {
+		display: none;
+	}
 
 	.comp-featured-videos-container .featured-title-steps {
 		grid-column: 1/-1;
@@ -463,6 +501,8 @@
 		grid-column: 1/-1;
 		grid-row: 2/3;
 	}
+
+
 	/* Featured Videos end */
 
 
