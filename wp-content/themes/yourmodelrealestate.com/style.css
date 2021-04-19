@@ -1004,6 +1004,7 @@ select {
 
 .comp-featured-properties-container .slick-item .content-bg h3{
     padding-bottom: 8px;
+    font-weight: 400;
 }
 
 .comp-featured-properties-container .slick-item .content-bg .view-detail-link{
@@ -1075,6 +1076,32 @@ select {
 }
 .comp-featured-areas-container .featured-areas-item .content:hover {
     background: rgba(78,51,98,.72);
+}
+.comp-featured-areas-container .featured-areas-item .content:hover h3::after {
+    display: none;
+}
+.featured-areas-item .content h3 {
+    position: relative;
+}
+.featured-areas-item .content h3::after {
+    content: "";
+    position: absolute;
+    max-width: 70px;
+    bottom: -19px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 3px;
+    display: flex;
+    font-weight: 500;
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, 
+     rgb(200, 185, 164) 0%,
+     rgba(208,183,147,1) 49%,
+     rgba(200, 185, 164) 100%
+     ) 1;
+
 }
 .comp-featured-areas-container {
     display: grid;
