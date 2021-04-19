@@ -50,6 +50,13 @@
 						slidesToScroll: 1,
 						}
 					},
+					{
+						breakpoint: 400,
+						settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						}
+					}
 				]
 			});
 			$('.hp-featured-properties .slick-next').click(function() {
@@ -92,7 +99,23 @@
 				asNavFor: '.main-slick-video',
 				dots: false,
 				arrows: false,
-				focusOnSelect: true
+				focusOnSelect: true,
+				responsive: [
+					{
+						breakpoint: 768,
+						settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1,
+						}
+					},
+					{
+						breakpoint: 400,
+						settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						}
+					}
+				]
 			});
 			$('.hp-featured-videos .slick-next').click(function() {
 				$(mainVideoSelector).slick('slickNext');
