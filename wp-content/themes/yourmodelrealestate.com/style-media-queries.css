@@ -14,8 +14,8 @@
 		font-size: 56px;
 	}
 	.slick-next, .slick-prev {
-		min-height: 36px;
-		min-width: 51px;
+		min-height: 53px;
+		min-width: 77px;
 	}
 	.site-btn-primary {
 		min-height: 60px;
@@ -137,7 +137,11 @@
 
 @media only screen and (max-width: 1199px) {
 	/* 992 */
-
+	/* global start */
+	.site-title-primary h2 {
+		font-size: 44px;
+	}
+	/* global end */
 	/* Header start */
 
 	/* Header end */
@@ -149,17 +153,27 @@
 
 
 	/* Quick search start */
-
+	.comp-quick-search-container {
+		grid-column-gap: 0;
+	}
+	.comp-search-container {
+		margin-left: -79px;
+	}
 	/* Quick search end */
 
 
 	/* About start*/
-
+	.hp-about::after {
+		height: calc(100% - 150px);
+	}
 	/* About end*/
 
 
 	/* Featured-properties start */
-
+	.comp-featured-properties-container {
+		width: 100%;
+		padding-left: 50px;
+	}
 	/* Featured-properties end */
 
 
