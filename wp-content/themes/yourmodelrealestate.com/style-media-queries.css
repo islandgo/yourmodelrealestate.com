@@ -387,7 +387,7 @@
 
 	.comp-featured-areas-container {
 		grid-template-columns: repeat(2,1fr);
-    	grid-template-rows: repeat(5,1fr);
+    	grid-template-rows: repeat(5,auto);
 		grid-template-areas: 
 		"areas areas"
 		"atlanta fulton"
@@ -397,6 +397,8 @@
 		"rockdale clayton"
 		;
 	}
+
+	
 
 	.comp-featured-areas-container .areas {
 		padding: 0 16px;
@@ -485,10 +487,17 @@
 		display: none;
 	}
 
-	.hp-featured-videos .main-slick-video:after {
+	.hp-featured-videos .main-slick-video:after,
+	.feature-slick-video::before {
 		display: none;
 	}
-
+	.main-slick-video .slick-slide div {
+		text-align: center;
+	}
+	.hp-featured-videos .feature-slick-video {
+		max-width: 500px;
+		margin: auto;
+	}
 	.comp-featured-videos-container .featured-title-steps {
 		grid-column: 1/-1;
 		grid-row: 1/2;
@@ -500,6 +509,13 @@
 	.comp-featured-videos-container .main-video {
 		grid-column: 1/-1;
 		grid-row: 2/3;
+	}
+	.comp-featured-videos-container .slick-action {
+		display: flex;
+		justify-content: center;
+		bottom: -59px;
+		width: 100%;
+		top: auto;
 	}
 
 
