@@ -196,6 +196,22 @@ body{
     /* -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; */
 }
+a,
+a:hover,
+a:visited,
+a:focus,
+input,
+input:focus,
+textarea,
+textarea:focus,
+select:focus,
+select,
+button:hover,
+button:visited,
+button:focus {
+    outline: none !important;
+    text-decoration: none !important;
+}
 p {
     font-size: 16px;
     font-weight: 400;
