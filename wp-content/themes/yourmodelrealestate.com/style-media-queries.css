@@ -270,10 +270,34 @@
 /* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
 @media only screen and (max-width: 991px) {
 	/* 768 */
-	
+	/* global start */
+	.site-title-primary h2 {
+		font-size: 32px;
+	}
+	.site-title-primary .section-number {
+		padding-right: 8px;
+	}
+	/* global end */
+
+
 	/* Header start */
 	.header {
+		position: relative !important;
+		background: rgba(55,43,76,.90);
+		margin-top: 52px;
+		padding: 15px 0 !important;
+	}
+	.header-right {
 		display: none;
+	}
+	.header-inner {
+		justify-content: center;
+	}
+	.aios-mobile-header-wrapper {
+		z-index: 1020 !important;
+	}
+	.header-logo .img-responsive {
+		max-width: 80px;
 	}
 	/* Header end */
 
@@ -339,6 +363,7 @@
 	}
 	.comp-featured-properties-container .featured-property-slick {
 		width: 100%;
+		padding: 0 16px;
 	}
 
 	.comp-featured-properties-container .site-btn-primary {
