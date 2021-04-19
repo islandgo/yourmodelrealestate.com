@@ -467,7 +467,8 @@
 <!-- Featured Videos -->
 <section class="hp-featured-videos">
 	<div class="comp-featured-videos-container">
-		<div class="featured-item video-item">
+
+		<div class="featured-title-steps">
 			<div class="site-title-primary">
 				<span class="section-number">07</span>
 				<div class="section-name">
@@ -476,6 +477,9 @@
 				</div>
 			</div>
 			<a class="site-btn-primary" href="[blogurl]" aria-label="btn">View all videos +</a>
+		</div>
+
+		<div class="featured-item video-item">
 			<div class="feature-slick-video">
 				<a class="aios-video-popup" target="_blank" href="https://player.vimeo.com/video/346779867" aria-label="video"   tabindex="0">
 				<div class="img-wrapper">
@@ -531,6 +535,7 @@
 			
 			</div>
 		</div>
+
 		<div class="main-video">
 			<div class="feature-item main-slick-video">
 				<a href="https://player.vimeo.com/video/346780215" class="fv-t-item aios-video-popup " tabindex="0">

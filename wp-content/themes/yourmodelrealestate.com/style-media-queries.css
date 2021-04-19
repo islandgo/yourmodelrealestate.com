@@ -390,13 +390,18 @@
 
 
 	/* Featured Videos start */
+
+	.comp-featured-videos-container .featured-title-steps {
+		grid-column: 1/-1;
+		grid-row: 1/2;
+	}
 	.comp-featured-videos-container .video-item {
 		grid-column: 1/-1;
-		grid-row: 1;
+		grid-row: 3/4;
 	}
 	.comp-featured-videos-container .main-video {
 		grid-column: 1/-1;
-		grid-row: 2;
+		grid-row: 2/3;
 	}
 	/* Featured Videos end */
 

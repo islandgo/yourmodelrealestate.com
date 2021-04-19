@@ -1624,6 +1624,7 @@ select {
 }
 .comp-featured-videos-container .video-item {
     grid-column: 1/12;
+    grid-row: 2/3;
     display: flex;
     flex-direction: column;
 }
@@ -1638,10 +1639,16 @@ select {
 
 .comp-featured-videos-container .main-video {
     grid-column: 12/-1;
+    grid-row: 1/3;
 }
-
 .comp-featured-videos-container .site-title-primary {
     justify-content: center;
+}
+
+.comp-featured-videos-container .featured-title-steps {
+    justify-content: center;
+    grid-column: 1/12;
+    grid-row: 1/2;
 }
 
 .comp-featured-videos-container .site-btn-primary {
