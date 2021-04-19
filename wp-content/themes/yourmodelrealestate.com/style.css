@@ -877,7 +877,7 @@ select {
     position: absolute;
     width: 201px;
     height: 161px;
-    top: 50%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%) scale(.4);
     pointer-events: none;
@@ -925,7 +925,6 @@ select {
 .comp-featured-properties-container .slick-item {
     position: relative;
 }
-pogi
 
 .comp-featured-properties-container .slick-action {
     display: flex;
