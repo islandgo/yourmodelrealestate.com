@@ -9,6 +9,18 @@
 
 @media only screen and (max-width: 1450px) {
 	/* 1366px */
+	/* Global start */
+	.site-title-primary h2 {
+		font-size: 56px;
+	}
+	.slick-next, .slick-prev {
+		min-height: 36px;
+		min-width: 51px;
+	}
+	.site-btn-primary {
+		min-height: 60px;
+	}
+	/* Global end */
 
 	/* Header start */
 
@@ -31,7 +43,13 @@
 
 
 	/* Featured-properties start */
-
+	.comp-featured-properties-container .slick-action {
+		margin-bottom: 24px;
+	}
+	.properties-item p {
+		padding: 14px 0;
+	}
+	
 	/* Featured-properties end */
 
 
