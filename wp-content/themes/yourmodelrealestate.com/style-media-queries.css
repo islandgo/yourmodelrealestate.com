@@ -616,6 +616,10 @@
 
 	/* Featured-areas start */
 
+	.featured-areas-item .content h3 {
+		font-size: 22px;
+	}
+
 	/* Featured-areas end */
 
 
@@ -681,6 +685,10 @@
 
 
 	/* Featured-areas start */
+	.comp-featured-areas-container .featured-areas-item:hover .site-btn-secondary {
+		font-size: 12px;
+		max-width: 184px;
+	}
 
 	/* Featured-areas end */
 

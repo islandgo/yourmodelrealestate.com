@@ -21,6 +21,87 @@ function register_ai_child_starter_theme_sidebars() {
 		'before_title' => '',
 		'after_title' => ''
 	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Quick Search',
+		'id'=>'hp-quick-search',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp About',
+		'id'=>'hp-about',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp About',
+		'id'=>'hp-about',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Featured Properties',
+		'id'=>'hp-featured-properties',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Featured Areas',
+		'id'=>'hp-featured-areas',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Cta',
+		'id'=>'hp-cta',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Testimonials',
+		'id'=>'hp-testimonials',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Featured Videos',
+		'id'=>'hp-featured-videos',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Footer',
+		'id'=>'hp-footer',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
 	
 }
 
